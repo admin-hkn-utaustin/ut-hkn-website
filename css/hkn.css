@@ -1,9 +1,28 @@
+body {
+    background: #fcfcfc;
+}
+
 nav.top-bar {
     margin-bottom: 6px;
 }
 
-/*
-.events {
-    margin-top: 6px;
+footer {
+    padding-bottom: 16px;
 }
-*/
+
+table {
+    width: 100%;
+}
+
+nav .top-bar-section li:not(.active) :hover {
+    background: #181818 !important;
+}
+
+span.more {
+    font-size: 75%;
+}
+
+div.main a:hover {
+    color: #006B8E;
+    text-decoration: underline;
+}
