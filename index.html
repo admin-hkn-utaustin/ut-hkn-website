@@ -5,25 +5,47 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>HKN Psi Chapter | Welcome</title>
   <link rel="stylesheet" href="css/foundation.css" />
+  <link rel="stylesheet" href="css/hkn.css" />
   <script src="js/vendor/modernizr.js"></script>
 </head>
 <body>
-  <div class="row">
-    <div class="large-centered columns">
-      <h1><div style="text-align:center;"><img src="images/hknbanner.png"></div></h1>
-    </div>
-  </div>
-  <div class ="row">
-    <div class="large-centered columns">
-      <ul class="button-group">
-        <div style="text-align:center;"><a href="index.html" class="button">Home</a>
-          <a href="AboutUs.html" class="button">About Us</a>
-          <a href="Members.html" class="button">Members</a>
-          <a href="Announcements.html" class="button">Announcements</a>
-          <a href="Gallery.html" class="button">Gallery</a>
-          <a href="Calendar.html" class="button">Calendar</a>
-          <a href="Corporate.html" class="button">Corporate</a></div>
+  <div class="row large-centered columns">
+    <h1><div style="text-align:center;"><img width="970px" height="125px" src="http://placehold.it/970x125&text=[banner]" /></div></h1>
+      <nav class="top-bar" data-topbar role="navigation">
+        <ul class="title-area">
+          <!--
+          <li class="active">
+            <h1>
+            <a href="index.html">Home</a>
+            </h1>
+          </li>
+          -->
+           <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+          <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
         </ul>
+
+        <section class="top-bar-section">
+          <!-- Left Nav Section -->
+          <ul class="left">
+            <li class="active"><a href="index.html">Home</a><li>
+            <li><a href="AboutUs.html">About</a></li>
+            <li><a href="Members.html">Members</a></li>
+            <li><a href="Announcements.html">Announcements</a></li>
+            <li><a href="Gallery.html">Gallery</a></li>
+            <li><a href="Calendar.html">Calendar</a></li>
+            <li><a href="Corporate.html">Corporate</a></li>
+          </ul>
+        </section>
+      </nav>
+    </div>
+
+    <div class="row">
+      <div class="large-4 columns">
+        <iframe src="https://www.google.com/calendar/embed?title=Upcoming%20Events&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=200&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=hkn.ece.utexas.edu_39353038313833342d383839%40resource.calendar.google.com&amp;color=%236B3304&amp;ctz=America%2FChicago" style=" border:solid 1px #777 " width="300" height="225" frameborder="0" scrolling="no"></iframe>
+      </div>
+      <div class="large-8 columns">
+        <h4>Welcome to Eta Kappa Nu at the University of Texas at Austin!</h4>
+        <p>Eta Kappa Nu (HKN), Psi Chapter, is the Electrical and Computer Engineering Honor Society at the University of Texas at Austin. We provide a venue for upper-division ECE honor students to meet each other, interact with the corporate world, and serve the Department, the University, and the community. Like all chapters of HKN, we are dedicated to encouraging and recognizing excellence in the fields of Electrical and Computer Engineering.</p>
       </div>
     </div>
 
@@ -32,7 +54,8 @@
         <div class="row">    
           <div class="large-6 columns">
             <div style="text-align:center;">
-              <div class="image">          <img src="images/fall2014smoker.jpg">
+              <div class="image">
+                <img src="images/fall2014smoker.jpg">
               </div>
             </div>
           </div>
@@ -44,17 +67,7 @@
         </div>
       </div>
     </div>
-    <br>
-    <div class="row">
-      <div class="large-4 columns">
-        <iframe src="https://www.google.com/calendar/embed?title=Upcoming%20Events&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=200&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=hkn.ece.utexas.edu_39353038313833342d383839%40resource.calendar.google.com&amp;color=%236B3304&amp;ctz=America%2FChicago" style=" border:solid 1px #777 " width="300" height="225" frameborder="0" scrolling="no"></iframe>
-      </div>
-      <div class="large-8 columns">
-        <h4>Welcome to Eta Kappa Nu at the University of Texas at Austin!</h4>
-        <p>Eta Kappa Nu (HKN), Psi Chapter, is the Electrical and Computer Engineering Honor Society at the University of Texas at Austin. We provide a venue for upper-division ECE honor students to meet each other, interact with the corporate world, and serve the Department, the University, and the community. Like all chapters of HKN, we are dedicated to encouraging and recognizing excellence in the fields of Electrical and Computer Engineering.</p>
-      </div>
-    </div>
-
+    
     <div class="row">
       <div class="large-12 columns">
         <h4>Congratulations to the new Spring 2015 officers!</h4>
@@ -87,27 +100,24 @@
       </div>
     </div>
 
-
     <footer class="row">
       <div class="large-12 columns">
         <hr/>
         <div class="row">
-          <div class="large-4 columns">
-            <p>Built with help from <a href="http://foundation.zurb.com/" >Foundation</a>.</p>
-          </div>
           <div class="large-8 columns">
-            <ul class="inline-list right">
-              <a href="index.html" >Home |</a> 
-              <a href="AboutUs.html" >About Us |</a>
-              <a href="Members.html" >Members |</a>
-              <a href="Announcements.html" >Announcements |</a>
-              <a href="Gallery.html" >Gallery |</a>
-              <a href="Calendar.html" >Calendar |</a>
-              <a href="Corporate.html" >Corporate</a>
-            </ul>
+            <a href="index.html">Home</a> | 
+            <a href="AboutUs.html">About Us</a> |
+            <a href="Members.html">Members</a> |
+            <a href="Announcements.html">Announcements</a> |
+            <a href="Gallery.html">Gallery</a> |
+            <a href="Calendar.html">Calendar</a> |
+            <a href="Corporate.html">Corporate</a>
+          </div>
+          <div class="large-4 columns" align="right">
+            <p>Built with help from <a href="http://foundation.zurb.com/" >Foundation</a>.</p>
           </div>
         </div>
       </div>
     </footer>
-  </body>
-  </html>
+</body>
+</html>
