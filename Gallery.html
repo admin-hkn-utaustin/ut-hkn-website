@@ -1,58 +1,102 @@
 <!doctype html>
 <html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HKN Psi Chapter | Gallery</title>
-    <link rel="stylesheet" href="css/foundation.css" />
-    <script src="js/vendor/modernizr.js"></script>
-  </head>
-  <body>
-        <div class="row">
-        <div class="large-centered columns">
-          <h1><div style="text-align:center;"><img src="images/hknbanner.png"></div></h1>
-        </div>
-      </div>
-      <div class ="row">
-        <div class="large-centered columns">
-          <ul class="button-group">
-            <div style="text-align:center;"><a href="index.html" class="button">Home</a>
-            <a href="AboutUs.html" class="button">About Us</a>
-            <a href="Members.html" class="button">Members</a>
-            <a href="Announcements.html" class="button">Announcements</a>
-            <a href="Gallery.html" class="button">Gallery</a>
-            <a href="Calendar.html" class="button">Calendar</a>
-            <a href="Corporate.html" class="button">Corporate</a></div>
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="css/foundation.css"/>
+  <link rel="stylesheet" href="css/hkn.css"/>
+  <script src="js/vendor/modernizr.js"></script>
+  <script src="js/vendor/jquery.js"></script>
+
+  <title>HKN Psi Chapter | Gallery</title>
+
+  <script type="text/javascript">
+    //<![CDATA[
+    $(document).ready(function () {
+      $("nav.top-bar > .top-bar-section li#Gallery").addClass("active");
+    });
+    //]]>
+  </script>
+</head>
+<body>
+<div class="row large-centered columns">
+  <div style="text-align:center;"><img width="970px" src="images/hknbanner.png"/></div>
+  <nav class="top-bar" data-topbar role="navigation">
+    <ul class="title-area">
+      <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+      <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+    </ul>
+
+    <section class="top-bar-section">
+      <!-- Left Nav Section -->
+      <ul class="left">
+        <li id="Home"><a href="index.html">Home</a></li>
+        <li id="About"><a href="AboutUs.html">About</a></li>
+        <li id="Members"><a href="Members.html">Members</a></li>
+        <li id="Announcements"><a href="Announcements.html">Announcements</a></li>
+        <li id="Gallery"><a href="Gallery.html">Gallery</a></li>
+        <li id="Calendar"><a href="Calendar.html">Calendar</a></li>
+        <li id="Corporate"><a href="Corporate.html">Corporate</a></li>
+      </ul>
+
+      <!-- Right Nav Section -->
+      <ul class="right">
+        <li id="Links" class="has-dropdown">
+          <a href="#">Useful Links</a>
+          <ul class="dropdown">
+            <li><a
+                href="https://docs.google.com/spreadsheet/ccc?key=0Aub-hgNV0eBldFRuZEcybS1uZklLV044azljdndaZ0E&usp=gmail#gid=0">Active
+              Hours Table</a></li>
+            <li><a href="https://www.facebook.com/groups/198592133542301/">Active Facebook Group</a></li>
+            <li><a
+                href="https://docs.google.com/a/hkn.ece.utexas.edu/spreadsheet/ccc?key=0Aub-hgNV0eBldFZkOFBPdmdSTUpGckpIUlU4S29UNEE&usp=gmail#gid=0">Pledge
+              Hours Table</a></li>
+            <li><a href="">Pledge Facebook Group</a></li>
           </ul>
-        </div>
-      </div>
-      <div class ="row">
-        <div class="large-centered columns"><div style="text-align:center;">
-       <iframe src="https://www.flickr.com/photos/130526545@N03/16226130975/player/" width="800" height="800" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-       </div></div> </div>
+        </li>
+      </ul>
+    </section>
+  </nav>
+</div>
 
+<div class="main row large-centered columns">
+<div class="row">
+  <div class="large-centered columns">
+    <div style="text-align:center;">
+      <iframe src="https://www.flickr.com/photos/130526545@N03/16226130975/player/" width="800" height="800"
+              frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen
+              msallowfullscreen></iframe>
+    </div>
+  </div>
+</div>
+</div> <!-- main -->
 
-     
-      <footer class="row">
-      <div class="large-12 columns">
-        <hr/>
-        <div class="row">
-          <div class="large-4 columns">
-            <p>Built with help from <a href="http://foundation.zurb.com/" >Foundation</a>.</p>
-          </div>
-          <div class="large-8 columns">
-            <ul class="inline-list right">
-              <a href="index.html" >Home |</a> 
-              <a href="AboutUs.html" >About Us |</a>
-              <a href="Members.html" >Members |</a>
-              <a href="Announcements.html" >Announcements |</a>
-              <a href="Gallery.html" >Gallery |</a>
-              <a href="Calendar.html" >Calendar |</a>
-              <a href="Corporate.html" >Corporate</a>
-            </ul>
-          </div>
-        </div>
+<footer class="row">
+  <div class="large-12 columns">
+    <hr/>
+    <div class="row">
+      <div class="large-8 columns">
+        <a href="index.html">Home</a> |
+        <a href="AboutUs.html">About Us</a> |
+        <a href="Members.html">Members</a> |
+        <a href="Announcements.html">Announcements</a> |
+        <a href="Gallery.html">Gallery</a> |
+        <a href="Calendar.html">Calendar</a> |
+        <a href="Corporate.html">Corporate</a>
       </div>
-      </footer>
-  </body>
+      <div class="large-4 columns" align="right">
+        Built with help from <a href="http://foundation.zurb.com/">Foundation</a>. &copy; 2015
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/vendor/fastclick.js"></script>
+<script src="js/foundation/foundation.js"></script>
+<script src="js/foundation/foundation.topbar.js"></script>
+<script src="js/foundation/foundation.dropdown.js"></script>
+<script>
+  $(document).foundation();
+</script>
+</body>
 </html>
