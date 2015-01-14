@@ -5,7 +5,17 @@ function formatAnnouncements(num) {
         num = 5;
     }
 
-    $.get("announcements/index.json", function (data) {
+    $.get("announcements/index.json", function (data, status, xhr) {
+        if (data === undefined) {
+            console.log("Could not read data from 'announcements/index.json'");
+            return false;
+        }
+
+        var ct = xhr.getResponseHeader("content-type") || "";
+        if (!ct.indexOf('json') > -1) {
+            data = JSON.parse(data);
+        }
+
         data.some(function (entry, index) {
             $.get('announcements/' + entry.html, function (content) {
                 entry.content = content;
