@@ -10,7 +10,7 @@ function formatAnnouncements(num) {
             $.get('announcements/' + entry.html, function (content) {
                 entry.content = content;
                 var text = Handlebars.templates.announcement(entry);
-                $('#announcements').prepend(text);
+                $('#announcements').append(text);
             });
 
             if (index >= num - 1) {
