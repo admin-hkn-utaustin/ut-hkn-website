@@ -5,13 +5,13 @@
     <hr/>
     <div class="row">
       <div class="large-8 columns">
-        <a href="index.html">Home</a> |
-        <a href="AboutUs.html">About</a> |
-        <a href="Members.html">Members</a> |
-        <a href="Announcements.html">Announcements</a> |
-        <a href="Gallery.html">Gallery</a> |
-        <a href="Calendar.html">Calendar</a> |
-        <a href="Corporate.html">Corporate</a>
+        <a href="index.php">Home</a> |
+        <a href="about.php">About</a> |
+        <a href="members.php">Members</a> |
+        <a href="announcements.php">Announcements</a> |
+        <a href="gallery.php">Gallery</a> |
+        <a href="calendar.php">Calendar</a> |
+        <a href="corporate.php">Corporate</a>
       </div>
       <div class="large-4 columns" align="right">
         Built with help from <a href="http://foundation.zurb.com/">Foundation</a>. &copy; 2015

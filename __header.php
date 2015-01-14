@@ -10,12 +10,12 @@
   <script language="javascript" type="text/javascript" src="js/vendor/modernizr.js"></script>
   <script language="javascript" type="text/javascript" src="js/vendor/jquery.js"></script>
 
-  <title>HKN Psi Chapter | %{title}</title>
+  <title>HKN Psi Chapter | <?php echo $title; ?></title>
 
   <script language="javascript" type="text/javascript">
     //<![CDATA[
     $(document).ready(function () {
-      $("nav.top-bar > .top-bar-section li#%{title}").addClass("active");
+      $("nav.top-bar > .top-bar-section li#<?php echo $title; ?>").addClass("active");
     });
     //]]>
   </script>
@@ -33,13 +33,13 @@
     <section class="top-bar-section">
       <!-- Left Nav Section -->
       <ul class="left">
-        <li id="Home"><a href="index.html">Home</a></li>
-        <li id="About"><a href="AboutUs.html">About</a></li>
-        <li id="Members"><a href="Members.html">Members</a></li>
-        <li id="Announcements"><a href="Announcements.html">Announcements</a></li>
-        <li id="Gallery"><a href="Gallery.html">Gallery</a></li>
-        <li id="Calendar"><a href="Calendar.html">Calendar</a></li>
-        <li id="Corporate"><a href="Corporate.html">Corporate</a></li>
+        <li id="Home"><a href="index.php">Home</a></li>
+        <li id="About"><a href="about.php">About</a></li>
+        <li id="Members"><a href="members.php">Members</a></li>
+        <li id="Announcements"><a href="announcements.php">Announcements</a></li>
+        <li id="Gallery"><a href="gallery.php">Gallery</a></li>
+        <li id="Calendar"><a href="calendar.php">Calendar</a></li>
+        <li id="Corporate"><a href="corporate.php">Corporate</a></li>
       </ul>
 
       <!-- Right Nav Section -->
