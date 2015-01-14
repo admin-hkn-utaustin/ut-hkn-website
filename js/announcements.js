@@ -12,7 +12,7 @@ function formatAnnouncements(num) {
         }
 
         var ct = xhr.getResponseHeader("content-type") || "";
-        if (!ct.indexOf('json') > -1) {
+        if (!(ct.indexOf('json') > -1)) {
             data = JSON.parse(data);
         }
 
@@ -23,7 +23,7 @@ function formatAnnouncements(num) {
                 $('#announcements').append(text);
             });
 
-            if (index >= num - 1) {
+            if (num !== undefined && index >= num - 1) {
                 return true;
             }
         });
