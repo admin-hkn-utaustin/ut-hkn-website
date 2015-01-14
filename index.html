@@ -108,17 +108,10 @@
 
 <script language="javascript" type="text/javascript" src="js/vendor/handlebars.runtime.min.js"></script>
 <script language="javascript" type="text/javascript" src="templates/announcement.js"></script>
+<script language="javascript" type="text/javascript" src="js/announcements.js"></script>
 <script language="javascript" type="text/javascript">
-  "use strict";
-
-  $(document).ready(function () {
-    $.get("announcements/index.json", function (data) {
-      var entries = JSON.parse(data);
-      for (var entry in entries) {
-        var text = Handlebars.templates.announcement(entry);
-        $('#announcements').append(text)
-      }
-    });
+  $(document).ready(function() {
+    formatAnnouncements(2);
   });
 </script>
 </div> <!-- main -->
