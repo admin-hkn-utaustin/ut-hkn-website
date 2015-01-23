@@ -6,3 +6,7 @@
   Standards: HTML5, CSS3
   Components: jQuery, Orbit, Reveal
   Software: Sublime, Git, Sass
+
+/* PEOPLE */
+  Nikhil Garg - Office Admin / Webmaster, Spring 2015
+  Doug Ilijev - Corresponding Secretary, Spring 2015
