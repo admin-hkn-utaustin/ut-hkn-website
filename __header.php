@@ -35,7 +35,8 @@
       <ul class="left">
         <li id="Home"><a href="index.php">Home</a></li>
         <li id="About"><a href="about.php">About</a></li>
-        <li id="Members"><a href="members.php">Members</a></li>
+        <li id="Pledges"><a href="pledges.php">Pledges</a></li>
+        <li id="Actives"><a href="actives.php">Actives</a></li>
         <li id="Announcements"><a href="announcements.php">Announcements</a></li>
         <li id="Gallery"><a href="gallery.php">Gallery</a></li>
         <li id="Calendar"><a href="calendar.php">Calendar</a></li>

@@ -1,6 +1,6 @@
 <?php
-$title = "Members";
+$title = "Pledges";
 include("__header.php");
-include("_members.html");
+include("_pledges.html");
 include("__footer.php");
 ?>

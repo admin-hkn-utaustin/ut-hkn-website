@@ -7,7 +7,8 @@
       <div class="large-8 columns">
         <a href="index.php">Home</a> |
         <a href="about.php">About</a> |
-        <a href="members.php">Members</a> |
+        <a href="pledges.php">Pledges</a> |
+        <a href="actives.php">Actives</a> |
         <a href="announcements.php">Announcements</a> |
         <a href="gallery.php">Gallery</a> |
         <a href="calendar.php">Calendar</a> |
