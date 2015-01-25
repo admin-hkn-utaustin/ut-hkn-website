@@ -21,56 +21,62 @@
   </script>
 </head>
 <body>
-<div class="row large-centered columns">
-  <div style="text-align:center;"><img width="970px" src="images/hknbanner.png"/></div>
-  <nav class="top-bar" data-topbar role="navigation">
-    <ul class="title-area">
-      <li class="name small"></li>
-      <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-      <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-    </ul>
-
-    <section class="top-bar-section">
-      <!-- Left Nav Section -->
-      <ul class="left">
-        <li id="Home"><a href="index.php">Home</a></li>
-        <li id="About"><a href="about.php">About</a></li>
-        <li id="Pledges"><a href="pledges.php">Pledges</a></li>
-        <li id="Actives"><a href="actives.php">Actives</a></li>
-        <li id="Announcements"><a href="announcements.php">Announcements</a></li>
-        <li id="Gallery"><a href="gallery.php">Gallery</a></li>
-        <li id="Calendar"><a href="calendar.php">Calendar</a></li>
-        <li id="Corporate"><a href="corporate.php">Corporate</a></li>
+  <div class="row large-centered columns">
+    <div style="text-align:center;"><img width="970px" src="images/hknbanner.png"/></div>
+    <nav class="top-bar" data-topbar role="navigation">
+      <ul class="title-area">
+        <li class="name small"></li>
+        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+        <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
       </ul>
 
-      <!-- Right Nav Section -->
-      <ul class="right">
-        <li id="Links" class="has-dropdown">
-          <a href="#">Useful Links</a>
-          <ul class="dropdown">
-            <li><a target="_blank"
-                   href="https://docs.google.com/spreadsheet/ccc?key=0Aub-hgNV0eBldFRuZEcybS1uZklLV044azljdndaZ0E&usp=gmail#gid=0">Active
-              Hours Table</a></li>
-            <li><a target="_blank" href="https://www.facebook.com/groups/198592133542301/">Active Facebook Group</a>
-            </li>
-            <li><a target="_blank"
-                   href="https://docs.google.com/a/hkn.ece.utexas.edu/spreadsheet/ccc?key=0Aub-hgNV0eBldFZkOFBPdmdSTUpGckpIUlU4S29UNEE&usp=gmail#gid=0">Pledge
-              Hours Table</a></li>
-            <li><a target="_blank" href="">Pledge Facebook Group</a></li>
-            <li class="divider"></li>
-            <li class="has-dropdown">
-              <a href="#">Website</a>
-              <ul class="dropdown">
-                <li><a target="_blank" href="https://github.com/admin-hkn-utaustin/website/">Contribute</a></li>
-                <li><a target="_blank" href="https://github.com/admin-hkn-utaustin/website/issues">Issue Tracker</a>
+      <section class="top-bar-section">
+        <!-- Left Nav Section -->
+        <ul class="left">
+          <li id="Home"><a href="index.php">Home</a></li>
+          <li id="About"><a href="about.php">About</a></li>
+
+          <li id="Members" class="has-dropdown">
+            <a href="#">Members</a>
+            <ul class="dropdown">
+              <li id="Pledges"><a href="pledges.php">Pledges</a></li>
+              <li id="Actives"><a href="actives.php">Actives</a></li>
+            </ul>
+          </li>
+          <li id="Announcements"><a href="announcements.php">Announcements</a></li>
+          <li id="Gallery"><a href="gallery.php">Gallery</a></li>
+          <li id="Calendar"><a href="calendar.php">Calendar</a></li>
+          <li id="Corporate"><a href="corporate.php">Corporate</a></li>
+        </ul>
+
+        <!-- Right Nav Section -->
+        <ul class="right">
+          <li id="Links" class="has-dropdown">
+            <a href="#">Useful Links</a>
+            <ul class="dropdown">
+              <li><a target="_blank"
+               href="https://docs.google.com/a/hkn.ece.utexas.edu/spreadsheet/ccc?key=0Aub-hgNV0eBldHQ1UHlqTVlXb3JIR19wLUhCSXhpemc#gid=0">Active
+               Hours Table</a></li>
+               <li><a target="_blank" href="https://www.facebook.com/groups/198592133542301/">Active Facebook Group</a>
+               </li>
+               <li><a target="_blank"
+                 href="https://docs.google.com/a/hkn.ece.utexas.edu/spreadsheet/ccc?key=0Aub-hgNV0eBldGt4VndfeEdpalZDa1JwT1lEUU9JTWc#gid=0">Pledge
+                 Hours Table</a></li>
+                 <li><a target="_blank" href="">Pledge Facebook Group</a></li>
+                 <li class="divider"></li>
+                 <li class="has-dropdown">
+                  <a href="#">Website</a>
+                  <ul class="dropdown">
+                    <li><a target="_blank" href="https://github.com/admin-hkn-utaustin/website/">Contribute</a></li>
+                    <li><a target="_blank" href="https://github.com/admin-hkn-utaustin/website/issues">Issue Tracker</a>
+                    </li>
+                  </ul>
                 </li>
               </ul>
             </li>
           </ul>
-        </li>
-      </ul>
-    </section>
-  </nav>
-</div>
+        </section>
+      </nav>
+    </div>
 
-<div class="main row large-centered columns">
+    <div class="main row large-centered columns">
