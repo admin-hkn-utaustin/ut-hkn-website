@@ -26,3 +26,8 @@ div.main a:hover {
     color: #006B8E;
     text-decoration: underline;
 }
+
+.muted {
+    color: #9f9f9f;
+    font-style: italic;
+}
