@@ -48,8 +48,20 @@
 
     <h3>Gold Partners</h3>
     <ul>
-      <li><a href="http://www.baesystems.com/" target="_blank">BAE Systems</a></li>
-      <p> BAE Systems, Inc. is the U.S. subsidiary of BAE Systems plc, a global defense, security and aerospace company which delivers a full range of products and services for air, land and naval forces, as well as advanced electronics, security, information technology solutions and customer support services. </p>
+      <li><a href="http://www.baesystems.com/" target="_blank">BAE Systems</a>
+        <blockquote>
+          <p>
+            BAE Systems, Inc. is the U.S. subsidiary of BAE Systems plc, a global defense, security and aerospace
+            company which delivers a full range of products and services for air, land and naval forces, as well as
+            advanced electronics, security, information technology solutions and customer support services.
+          </p>
+
+          <p>
+            BAE Systems is always looking for talented engineers to join its 35,000 strong world-wide team everywhere
+            from Austin to Singapore. Search for positions at <a href="www.baesystems.jobs">www.baesystems.jobs</a>
+          </p>
+        </blockquote>
+      </li>
     </ul>
     <h3>Silver Partners</h3>
 
@@ -66,29 +78,25 @@
 <div class="row">
   <div id="schedule" class="large-centered columns">
     <h1 id="schedule-header">Corporate Schedule</h1>
-    <p class="muted">Click on the column headers to sort.</p>
-
     <table id="schedule-table" class="tablesorter">
       <thead>
       <tr>
         <th>Event</th>
         <th>Type</th>
-        <th>Date</th>
+        <th>Date *</th>
         <th>Company</th>
         <th>Support Level</th>
         <th>Food</th>
-        <th>Veggie Food</th>
       </tr>
       </thead>
       <tbody>
-      <tr>
+      <tr class="past">
         <td>Actives Meeting</td>
         <td>Meeting</td>
         <td>1/28/2015</td>
         <td>National Instruments</td>
         <td>Bronze</td>
-        <td>Rudy's</td>
-        <td>Cabo Bob's</td>
+        <td>Rudy's / Cabo Bob's</td>
       </tr>
       <tr>
         <td>Pre-Pledge Social</td>
@@ -96,8 +104,7 @@
         <td>2/2/2015</td>
         <td></td>
         <td></td>
-        <td></td>
-        <td></td>
+        <td>Zen</td>
       </tr>
       <tr>
         <td>Pledge Meeting 1</td>
@@ -105,8 +112,7 @@
         <td>2/4/2015</td>
         <td>BAE Systems</td>
         <td>Gold</td>
-        <td></td>
-        <td></td>
+        <td>Buca di Beppo</td>
       </tr>
       <tr>
         <td>Ice Cream Social</td>
@@ -114,14 +120,12 @@
         <td>2/11/2015</td>
         <td>BAE Systems</td>
         <td>Gold</td>
-        <td></td>
-        <td></td>
+        <td>Ice Cream!</td>
       </tr>
       <tr>
         <td>Pledge Meeting 2</td>
         <td>Meeting</td>
         <td>2/18/2015</td>
-        <td></td>
         <td></td>
         <td></td>
         <td></td>
@@ -133,7 +137,6 @@
         <td></td>
         <td></td>
         <td></td>
-        <td></td>
       </tr>
       <tr>
         <td>Sig Party</td>
@@ -141,14 +144,12 @@
         <td>3/7/2015</td>
         <td>BAE Systems</td>
         <td>Gold</td>
-        <td></td>
-        <td></td>
+        <td>Potluck</td>
       </tr>
       <tr>
         <td>Pledge Meeting 4</td>
         <td>Meeting</td>
         <td>3/25/2015</td>
-        <td></td>
         <td></td>
         <td></td>
         <td></td>
@@ -160,13 +161,11 @@
         <td></td>
         <td></td>
         <td></td>
-        <td></td>
       </tr>
       <tr>
         <td>Pledge Meeting 5</td>
         <td>Meeting</td>
         <td>4/15/2015</td>
-        <td></td>
         <td></td>
         <td></td>
         <td></td>
@@ -178,13 +177,11 @@
         <td></td>
         <td></td>
         <td></td>
-        <td></td>
       </tr>
       <tr>
         <td>Smoker</td>
         <td>Formal</td>
         <td>5/2/2015</td>
-        <td></td>
         <td></td>
         <td></td>
         <td></td>
@@ -196,7 +193,6 @@
         <td></td>
         <td></td>
         <td></td>
-        <td></td>
       </tr>
       <tr>
         <td>Banquet</td>
@@ -205,17 +201,20 @@
         <td></td>
         <td></td>
         <td></td>
-        <td></td>
       </tr>
       </tbody>
     </table>
+
+    <div class="muted">* Dates are subject to change.</div>
   </div>
 </div>
 
 <script language="javascript" type="text/javascript">
   //<![CDATA[
   $(document).ready(function () {
-    $("#schedule-table").tablesorter({sortList: [[2,0]]});
+    $("#schedule-table").tablesorter({sortList: [
+      [2, 0]
+    ]});
   });
   //]]>
 </script>
