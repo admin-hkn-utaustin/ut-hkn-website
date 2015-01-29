@@ -31,3 +31,18 @@ div.main a:hover {
     color: #9f9f9f;
     font-style: italic;
 }
+
+div.muted {
+    color: #9f9f9f;
+    font-style: italic;
+    font-size: 80%;
+}
+
+tr.past td {
+    color: #9f9f9f;
+    font-style: italic;
+}
+
+tbody > tr:hover, tbody > tr:nth-of-type(even):hover {
+    background-color: #f4f4f4;
+}
