@@ -41,6 +41,7 @@
           <li id="Members" class="has-dropdown">
             <a href="#">Members</a>
             <ul class="dropdown">
+              <li id="Leadership"><a href="leadership.php">Leadership</a></li>
               <li id="Pledges"><a href="pledges.php">Pledges</a></li>
               <li id="Actives"><a href="actives.php">Actives</a></li>
             </ul>
