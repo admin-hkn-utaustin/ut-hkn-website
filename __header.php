@@ -65,7 +65,7 @@
                <li><a target="_blank"
                  href="https://docs.google.com/a/hkn.ece.utexas.edu/spreadsheet/ccc?key=0Aub-hgNV0eBldGt4VndfeEdpalZDa1JwT1lEUU9JTWc#gid=0">Pledge
                  Hours Table</a></li>
-                 <li><a target="_blank" href="">Pledge Facebook Group</a></li>
+                 <li><a target="_blank" href="https://www.facebook.com/groups/737326389718016/">Pledge Facebook Group</a></li>
                  <li><a href="https://docs.google.com/a/hkn.ece.utexas.edu/spreadsheets/d/1uqp3bQap72VaxhY3tu0qHuL9CN79HFQtwJ8_vP-i3XQ/edit#gid=0">Officer Office Hours</a> </li>
                  <li class="divider"></li>
                  <li class="has-dropdown">
