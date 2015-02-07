@@ -6,8 +6,7 @@
     <div class="row">
       <div class="large-8 columns">
         <a href="index.php">Home</a> |
-        <a href="about.php">About</a> |
-        <a href="leadership.php">Leadership</a> |
+        <a href="contact.php">Contact</a> |
         <a href="pledges.php">Pledges</a> |
         <a href="actives.php">Actives</a> |
         <a href="announcements.php">Announcements</a> |

@@ -36,12 +36,18 @@
         <!-- Left Nav Section -->
         <ul class="left">
           <li id="Home"><a href="index.php">Home</a></li>
-          <li id="About"><a href="about.php">About</a></li>
-
+          <li id="About" class="has-dropdown">
+            <a href="#">About</a>
+            <ul class="dropdown">
+              <li id="Chapter"><a href="chapterinformation.php">Chapter</a></li>
+              <li id="Officers"><a href="officers.php">Officers</a></li>
+              <li id="FacultyFriends"><a href="facultyfriends.php">Faculty & Friends</a></li>
+              <li id="Contact"><a href="contact.php">Contact</a></li>
+            </ul>
+          </li>
           <li id="Members" class="has-dropdown">
             <a href="#">Members</a>
             <ul class="dropdown">
-              <li id="Leadership"><a href="leadership.php">Leadership</a></li>
               <li id="Pledges"><a href="pledges.php">Pledges</a></li>
               <li id="Actives"><a href="actives.php">Actives</a></li>
             </ul>

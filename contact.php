@@ -1,6 +1,6 @@
 <?php
-$title = "About";
+$title = "Contact";
 include("__header.php");
-include("_about.html");
+include("_contact.html");
 include("__footer.php");
 ?>
