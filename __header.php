@@ -54,7 +54,13 @@
           </li>
           <li id="Announcements"><a href="announcements.php">Announcements</a></li>
           <li id="Gallery"><a href="gallery.php">Gallery</a></li>
-          <li id="Calendar"><a href="calendar.php">Calendar</a></li>
+          <li id="Events" class="has-dropdown">
+            <a href="#">Events</a>
+            <ul class="dropdown">
+              <li id="Calendar"><a href="calendar.php">Calendar</a></li>
+              <li id="EventsTable"><a href="eventstable.php">Table</a></li>
+            </ul>
+          </li>
           <li id="Corporate"><a href="corporate.php">Corporate</a></li>
         </ul>
 
