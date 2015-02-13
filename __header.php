@@ -24,7 +24,7 @@
 </head>
 <body>
   <div class="row large-centered columns">
-    <div style="text-align:center;"><img width="970px" src="images/hknbanner.png"/></div>
+    <div style="text-align:center;"><img width="970px" src="images/hknbanner2015.png"/></div>
     <nav class="top-bar" data-topbar role="navigation">
       <ul class="title-area">
         <li class="name small"></li>
@@ -58,7 +58,7 @@
             <a href="#">Events</a>
             <ul class="dropdown">
               <li id="Calendar"><a href="calendar.php">Calendar</a></li>
-              <li id="EventsTable"><a href="eventstable.php">Table</a></li>
+              <li id="EventsTable"><a href="eventstable.php">Schedule</a></li>
             </ul>
           </li>
           <li id="Corporate"><a href="corporate.php">Corporate</a></li>
