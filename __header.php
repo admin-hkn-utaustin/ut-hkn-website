@@ -70,12 +70,12 @@
             <a href="#">Useful Links</a>
             <ul class="dropdown">
               <li><a target="_blank"
-               href="https://docs.google.com/a/hkn.ece.utexas.edu/spreadsheet/ccc?key=0Aub-hgNV0eBldHQ1UHlqTVlXb3JIR19wLUhCSXhpemc#gid=0">Active
+               href="https://docs.google.com/spreadsheets/d/1m1R-MTQt-YYXpH9rTdY2yS-fB01Ex3EEVCSsspvq1wc/edit?usp=sharing">Active
                Hours Table</a></li>
                <li><a target="_blank" href="https://www.facebook.com/groups/198592133542301/">Active Facebook Group</a>
                </li>
                <li><a target="_blank"
-                 href="https://docs.google.com/a/hkn.ece.utexas.edu/spreadsheet/ccc?key=0Aub-hgNV0eBldGt4VndfeEdpalZDa1JwT1lEUU9JTWc#gid=0">Pledge
+                 href="https://docs.google.com/spreadsheets/d/18o3CkbFb-XsL4WYBwAC60SMzPYSoQQQVWkTUyIgLRXw/edit?usp=sharing">Pledge
                  Hours Table</a></li>
                  <li><a target="_blank" href="https://www.facebook.com/groups/737326389718016/">Pledge Facebook Group</a></li>
                  <li><a href="https://docs.google.com/spreadsheets/d/1bYqxOSkXhrBYBe57TzbVNQaNmRaLtSCDgwvAey66S-Q/edit#gid=0">Officer Office Hours</a> </li>
