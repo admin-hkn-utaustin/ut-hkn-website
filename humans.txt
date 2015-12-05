@@ -8,4 +8,5 @@
   Software: Sublime, Git, Sass
 
 /* PEOPLE */
+  Nikhil Garg - Office Admin / Webmaster, Spring 2015
   Nishil Shah - Office Admin / Webmaster, Fall 2015
