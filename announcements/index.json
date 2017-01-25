@@ -1,5 +1,21 @@
 [
     {
+	"author": "Rohan Nagar",
+	"position": "Admin",
+	"semester": "Fall 2016",
+	"date": "2016-08-27",
+	"title": "EE 302 Course Notes",
+	"html": "2016-08-27-coursenotes.html"
+    },
+    {
+	"author": "Rohan Nagar",
+	"position": "Admin",
+	"semester": "Fall 2016",
+	"date": "2016-08-24",
+	"title": "Your Fall 2016 Officers",
+	"html": "2016-08-24-fall-2016-officers.html"
+    },
+    {
         "author": "Nishil Shah",
         "position": "Admin",
         "semester": "Fall 2015",

@@ -70,15 +70,15 @@
             <a href="#">Useful Links</a>
             <ul class="dropdown">
               <li><a target="_blank"
-               href="https://docs.google.com/spreadsheets/d/1m1R-MTQt-YYXpH9rTdY2yS-fB01Ex3EEVCSsspvq1wc/edit?usp=sharing">Active
+               href="https://docs.google.com/spreadsheets/d/1pX0zSjiESIm95KBelmnMX1Ab4yAAijfsYSEtnPL5tWQ/edit?usp=sharing">Active
                Hours Table</a></li>
                <li><a target="_blank" href="https://www.facebook.com/groups/198592133542301/">Active Facebook Group</a>
                </li>
                <li><a target="_blank"
-                 href="https://docs.google.com/spreadsheets/d/18o3CkbFb-XsL4WYBwAC60SMzPYSoQQQVWkTUyIgLRXw/edit?usp=sharing">Pledge
+                 href="https://docs.google.com/spreadsheets/d/1QXagAtmOSOPSiQqzGCBJ-hCuZvIzcYO0yo0Zj70rktg/edit?usp=sharing">Pledge
                  Hours Table</a></li>
-                 <li><a target="_blank" href="https://www.facebook.com/groups/737326389718016/">Pledge Facebook Group</a></li>
-                 <li><a href="https://docs.google.com/spreadsheets/d/1bYqxOSkXhrBYBe57TzbVNQaNmRaLtSCDgwvAey66S-Q/edit#gid=0">Officer Office Hours</a> </li>
+                 <li><a target="_blank" href="https://www.facebook.com/groups/195942760821432/">Pledge Facebook Group</a></li>
+                 <li><a href="https://docs.google.com/spreadsheets/d/1rO61DTzWr2pO0ys8qyjXB2wpd__mFjlVBrATeKaBWPE/edit?usp=sharing">Officer Office Hours</a> </li>
                  <li class="divider"></li>
                  <li class="has-dropdown">
                   <a href="#">Website</a>

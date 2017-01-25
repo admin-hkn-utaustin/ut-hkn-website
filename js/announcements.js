@@ -2,7 +2,7 @@ function formatAnnouncements(num) {
     "use strict";
 
     if (num == undefined) {
-        num = 5;
+        num = 6;
     }
 
     $.get("announcements/index.json", function (data, status, xhr) {
