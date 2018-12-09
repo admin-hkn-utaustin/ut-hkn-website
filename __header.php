@@ -54,13 +54,7 @@
           </li>
           <li id="Announcements"><a href="announcements.php">Announcements</a></li>
           <li id="Gallery"><a href="gallery.php">Gallery</a></li>
-          <li id="Events" class="has-dropdown">
-            <a href="#">Events</a>
-            <ul class="dropdown">
-              <li id="Calendar"><a href="calendar.php">Calendar</a></li>
-              <li id="EventsTable"><a href="eventstable.php">Schedule</a></li>
-            </ul>
-          </li>
+          <li id="Calendar"><a href="calendar.php">Calendar</a></li>
           <li id="Corporate"><a href="corporate.php">Corporate</a></li>
         </ul>
 
@@ -70,15 +64,16 @@
             <a href="#">Useful Links</a>
             <ul class="dropdown">
               <li><a target="_blank"
-               href="https://docs.google.com/spreadsheets/d/1pX0zSjiESIm95KBelmnMX1Ab4yAAijfsYSEtnPL5tWQ/edit?usp=sharing">Active
+               href="https://docs.google.com/spreadsheets/d/1lOMI5H3AL5Haut6S0geQ9sf7xtYCFf4C0D5Wp-xdmZ0/edit?usp=sharing">Active
                Hours Table</a></li>
-               <li><a target="_blank" href="https://www.facebook.com/groups/198592133542301/">Active Facebook Group</a>
+               <li><a target="_blank" href="https://www.facebook.com/groups/158279764805035/">Facebook Group</a>
                </li>
                <li><a target="_blank"
-                 href="https://docs.google.com/spreadsheets/d/1QXagAtmOSOPSiQqzGCBJ-hCuZvIzcYO0yo0Zj70rktg/edit?usp=sharing">Pledge
+                 href="https://docs.google.com/spreadsheets/d/1SVuWA3bhZZtGKY3PhQd8juVeOTgdKRQUeg8eZcsb2MM/edit?usp=sharing">Pledge
                  Hours Table</a></li>
-                 <li><a target="_blank" href="https://www.facebook.com/groups/195942760821432/">Pledge Facebook Group</a></li>
-                 <li><a href="https://docs.google.com/spreadsheets/d/1rO61DTzWr2pO0ys8qyjXB2wpd__mFjlVBrATeKaBWPE/edit?usp=sharing">Officer Office Hours</a> </li>
+                <li><a target="_blank" href="https://docs.google.com/spreadsheets/d/14cnfzduO_0eOYp6iBNNPG8n0GudlDF-QC-1_d7o3djw/edit?usp=sharing">Big/Little Group Points Tracker</a></li>
+
+                <!-- <li><a href="https://docs.google.com/spreadsheets/d/1p7Ej46CKpePxCZckdD4CaOn5EJAyp823mnjd9g17n4I/edit?usp=sharing">Officer Office Hours</a> </li>-->
                  <li class="divider"></li>
                  <li class="has-dropdown">
                   <a href="#">Website</a>
