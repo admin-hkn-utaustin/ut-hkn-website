@@ -24,7 +24,11 @@
 </head>
 <body>
   <div class="row large-centered columns">
-    <div style="text-align:center;"><img width="970px" src="images/hknbanner2015.png"/></div>
+    <div style="text-align:center;">
+      <a href="index.php">
+      <img width="970px" src="images/hknbanner2015.png"/>
+      </a>
+    </div>
     <nav class="top-bar" data-topbar role="navigation">
       <ul class="title-area">
         <li class="name small"></li>

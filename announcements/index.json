@@ -1,82 +1,89 @@
-[
-     {
-	"author": "Arjun Teh",
-	"position": "Admin",
-	"semester": "Spring 2017",
-	"date": "2017-01-27",
-	"title": "Spring 2017 Officers",
-	"html": "2017-01-27-spring-2017-officers.html"
-    },
-    {
-	"author": "Rohan Nagar",
-	"position": "Admin",
-	"semester": "Fall 2016",
-	"date": "2016-08-27",
-	"title": "EE 302 Course Notes",
-	"html": "2016-08-27-coursenotes.html"
-    },
-    {
-	"author": "Rohan Nagar",
-	"position": "Admin",
-	"semester": "Fall 2016",
-	"date": "2016-08-24",
-	"title": "Your Fall 2016 Officers",
-	"html": "2016-08-24-fall-2016-officers.html"
-    },
-    {
-        "author": "Nishil Shah",
-        "position": "Admin",
-        "semester": "Fall 2015",
-        "date": "2015-12-02",
-        "title": "Congratulations to the new Spring 2016 officers!",
-        "html": "2015-12-02-spring-2016-officers.html"
-    },
-    {
-        "author": "Nishil Shah",
-        "position": "Admin",
-        "semester": "Fall 2015",
-        "date": "2015-08-01",
-        "title": "Course Notes now on sale!",
-        "html": "2015-08-01-coursenotes.html"
-    },
-    {
-        "author": "Nishil Shah",
-        "position": "Admin",
-        "semester": "Fall 2015",
-        "date": "2015-05-30",
-        "title": "Congratulations to the new Fall 2015 officers!",
-        "html": "2015-05-30-fall-2015-officers.html"
-    },
-    {
-        "author": "Nikhil Garg",
-        "position": "Admin",
-        "semester": "Spring 2015",
-        "date": "2015-01-30",
-        "title": "Pledge Information!",
-        "html": "2015-01-30-newpledgeinformation.html"
-    },
-    {
-        "author": "Nikhil Garg",
-        "position": "Admin",
-        "semester": "Spring 2015",
-        "date": "2015-01-24",
-        "title": "Course Notes now on sale!",
-        "html": "2015-01-24-coursenotes.html"
-    },
-    {
-        "author": "Nikhil Garg",
-        "position": "Admin",
-        "semester": "Spring 2015",
-        "date": "2015-01-11",
-        "title": "Welcome to the new website for HKN Psi Chapter!",
-        "html": "2015-01-11-new-website.html"
-    },
-    {
-        "author": "Nikhil Joglekar",
-        "position": "President",
-        "semester": "Fall 2014",
-        "date": "2014-12-03",
-        "title": "Congratulations to the new Spring 2015 officers!",
-        "html": "2014-12-03-spring-2015-officers.html"
-    }
+[{
+    "author": "Steven Zhu",
+    "position": "Admin",
+    "semester": "Spring 2019",
+    "date": "2018-12-11",
+    "title": "Spring 2019 Officers",
+    "html": "2018-12-11-spring-2019-officers.html"
+  },
+  {
+    "author": "Arjun Teh",
+    "position": "Admin",
+    "semester": "Spring 2017",
+    "date": "2017-01-27",
+    "title": "Spring 2017 Officers",
+    "html": "2017-01-27-spring-2017-officers.html"
+  },
+  {
+    "author": "Rohan Nagar",
+    "position": "Admin",
+    "semester": "Fall 2016",
+    "date": "2016-08-27",
+    "title": "EE 302 Course Notes",
+    "html": "2016-08-27-coursenotes.html"
+  },
+  {
+    "author": "Rohan Nagar",
+    "position": "Admin",
+    "semester": "Fall 2016",
+    "date": "2016-08-24",
+    "title": "Your Fall 2016 Officers",
+    "html": "2016-08-24-fall-2016-officers.html"
+  },
+  {
+    "author": "Nishil Shah",
+    "position": "Admin",
+    "semester": "Fall 2015",
+    "date": "2015-12-02",
+    "title": "Congratulations to the new Spring 2016 officers!",
+    "html": "2015-12-02-spring-2016-officers.html"
+  },
+  {
+    "author": "Nishil Shah",
+    "position": "Admin",
+    "semester": "Fall 2015",
+    "date": "2015-08-01",
+    "title": "Course Notes now on sale!",
+    "html": "2015-08-01-coursenotes.html"
+  },
+  {
+    "author": "Nishil Shah",
+    "position": "Admin",
+    "semester": "Fall 2015",
+    "date": "2015-05-30",
+    "title": "Congratulations to the new Fall 2015 officers!",
+    "html": "2015-05-30-fall-2015-officers.html"
+  },
+  {
+    "author": "Nikhil Garg",
+    "position": "Admin",
+    "semester": "Spring 2015",
+    "date": "2015-01-30",
+    "title": "Pledge Information!",
+    "html": "2015-01-30-newpledgeinformation.html"
+  },
+  {
+    "author": "Nikhil Garg",
+    "position": "Admin",
+    "semester": "Spring 2015",
+    "date": "2015-01-24",
+    "title": "Course Notes now on sale!",
+    "html": "2015-01-24-coursenotes.html"
+  },
+  {
+    "author": "Nikhil Garg",
+    "position": "Admin",
+    "semester": "Spring 2015",
+    "date": "2015-01-11",
+    "title": "Welcome to the new website for HKN Psi Chapter!",
+    "html": "2015-01-11-new-website.html"
+  },
+  {
+    "author": "Nikhil Joglekar",
+    "position": "President",
+    "semester": "Fall 2014",
+    "date": "2014-12-03",
+    "title": "Congratulations to the new Spring 2015 officers!",
+    "html": "2014-12-03-spring-2015-officers.html"
+  }
 ]

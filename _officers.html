@@ -9,131 +9,25 @@
 </div>
 
 <div id="officers">
-  <h2 id="officers-heading">Spring 2019 Officers</h2>
-  <table id="officer_info" summary="Officer contact and position holder details">
-    <thead>
-      <tr>
-        <td></td>
-        <td>Name</td>
-        <td>Position</td>
-        <td>Contact</td>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td class="officer_picture">
-          <div class="image">
-            <img width="125px" src="images/officers/cynthia.jpg" alt="president" />
-          </div>
-        </td>
-        <td class="officer_name">
-          Cynthia Wu
-        </td>
-        <td>President</td>
-        <td>president@hkn.ece.utexas.edu</td>
-      </tr>
-      <tr>
-        <td class="officer_picture">
-          <div class="image">
-            <img width="125px" src="images/officers/nav.jpg" alt="vice president" />
-          </div>
-        </td>
-        <td class="officer_name">
-          Nav Saini
-        </td>
-        <td>Vice President</td>
-        <td>vicepresident@hkn.ece.utexas.edu</td>
-      </tr>
-      <tr>
-        <td class="officer_picture">
-          <div class="image">
-            <img width="125px" src="images/officers/colin.jpg" alt="treasurer" />
-          </div>
-        </td>
-        <td class="officer_name">
-          Colin Zhu
-        </td>
-        <td>Treasurer</td>
-        <td>treasurer@hkn.ece.utexas.edu</td>
-      </tr>
-      <tr>
-        <td class="officer_picture">
-          <div class="image">
-            <img width="125px" src="images/officers/sneha.jpg" alt="recording secretary" />
-          </div>
-        </td>
-        <td class="officer_name">
-          Sneha Pendharkar
-        </td>
-        <td>Recording Secretary</td>
-        <td>recording@hkn.ece.utexas.edu</td>
-      </tr>
-      <tr>
-        <td class="officer_picture">
-          <div class="image">
-            <img width="125px" src="images/officers/ramya.jpg" alt="corresponding secretary" />
-          </div>
-        </td>
-        <td class="officer_name">
-          Ramya Raj
-        </td>
-        <td>Corresponding Secretary</td>
-        <td>corporate_relations@hkn.ece.utexas.edu</td>
-      </tr>
-      <tr>
-        <td class="officer_picture">
-          <div class="image">
-            <img width="125px" src="images/officers/jarrad.jpg" alt="service coordinator" />
-          </div>
-        </td>
-        <td class="officer_name">
-          Jarrad Cisco
-        </td>
-        <td>Service/Cockrell Relations Representative</td>
-        <td>sec_service@hkn.ece.utexas.edu</td>
-      </tr>
-      <tr>
-        <td class="officer_picture">
-          <div class="image">
-            <img width="125px" src="images/officers/charlie.jpg" alt="social coordinator" />
-          </div>
-        </td>
-        <td class="officer_name">
-          Charlie Yeng
-        </td>
-        <td>Social Coordinator</td>
-        <td>social@hkn.ece.utexas.edu</td>
-      </tr>
-      <tr>
-        <td class="officer_picture">
-          <div class="image">
-            <img width="125px" src="images/officers/grace.jpg" alt="historian" />
-          </div>
-          <div class="image">
-            <img width="125px" src="images/officers/meiling.jpg" alt="historian" />
-          </div>
-        </td>
-        <td class="officer_name">
-          Grace Jung
-          <br> Meiling Tang
-        </td>
-        <td>Historian</td>
-        <td>historian@hkn.ece.utexas.edu</td>
-      </tr>
-
-      <tr>
-        <td class="officer_picture">
-          <div class="image">
-            <img width="125px" src="images/officers/steven.jpg" alt="office admin" />
-          </div>
-        </td>
-        <td class="officer_name">
-          Steven Zhu
-        </td>
-        <td>Office/Web Administrator</td>
-        <td>admin@hkn.ece.utexas.edu</td>
-      </tr>
-    </tbody>
-  </table>
+  <h2 id="officers-heading">Spring 2019 Officers</h2><br>
+  <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-3" style="list-style-type:none">
+    <?php
+$string = file_get_contents("data/officers.json");
+$officers = json_decode($string, true);
+foreach ($officers as $position=>$officer) {
+    echo <<<EOL
+      <li>
+      <center>
+        <div class="image" style="min-height: 130px;">
+          <img src=images/officers/$officer[picture] alt=$position style="max-height:200px">
+        </div>
+        <br>$officer[name]<br><i>$officer[position]</i><br>
+        <a href="mailto:$officer[email]" >$officer[email]</a>
+      </center>
+      </li>
+EOL;
+}
+?>
+  </ul>
 </div>
 <!-- officers -->
