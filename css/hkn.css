@@ -63,3 +63,9 @@ div.wrapped {
   -webkit-hyphens: auto;
   hyphens: auto;
 }
+
+li.allcenter{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
