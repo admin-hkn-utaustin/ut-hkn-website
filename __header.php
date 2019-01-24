@@ -68,16 +68,14 @@
             <a href="#">Useful Links</a>
             <ul class="dropdown">
               <li><a target="_blank"
-               href="https://docs.google.com/spreadsheets/d/1lOMI5H3AL5Haut6S0geQ9sf7xtYCFf4C0D5Wp-xdmZ0/edit?usp=sharing">Active
-               Hours Table</a></li>
-               <li><a target="_blank" href="https://www.facebook.com/groups/158279764805035/">Facebook Group</a>
-               </li>
-               <li><a target="_blank"
-                 href="https://docs.google.com/spreadsheets/d/1SVuWA3bhZZtGKY3PhQd8juVeOTgdKRQUeg8eZcsb2MM/edit?usp=sharing">Pledge
-                 Hours Table</a></li>
-                <li><a target="_blank" href="https://docs.google.com/spreadsheets/d/14cnfzduO_0eOYp6iBNNPG8n0GudlDF-QC-1_d7o3djw/edit?usp=sharing">Big/Little Group Points Tracker</a></li>
-
-                <!-- <li><a href="https://docs.google.com/spreadsheets/d/1p7Ej46CKpePxCZckdD4CaOn5EJAyp823mnjd9g17n4I/edit?usp=sharing">Officer Office Hours</a> </li>-->
+               href="https://docs.google.com/spreadsheets/d/1pzJATIXcARxkdzHeSZuYtDJGKayrTz2AMQ-Zuwyl8Ms/edit?usp=sharing">
+		Active Hours Table</a></li>
+              <li><a target="_blank" href="https://www.facebook.com/groups/1993336434305004/">
+		Facebook Group</a></li>
+              <li><a target="_blank" href="https://docs.google.com/spreadsheets/d/1KPj2xKB8pXNBoIGvMG320hsF-jsu4-tc61NfxsmC__8/edit?usp=sharing">
+		Pledge Hours Table</a></li>
+              <li><a target="_blank" href="https://docs.google.com/spreadsheets/d/1FNMkeSz9E6Tdzxd8pghAIcL3Q6-OSGFj9VN3coQGUls/edit?usp=sharing">
+		Big/Little Group Points Tracker</a></li>
                  <li class="divider"></li>
                  <li class="has-dropdown">
                   <a href="#">Website</a>
