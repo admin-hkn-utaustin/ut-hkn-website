@@ -23,6 +23,7 @@
 
 <script src="js/vendor/fastclick.js"></script>
 <script src="js/foundation/foundation.js"></script>
+<script src="js/foundation/foundation.tab.js"></script>
 <script src="js/foundation/foundation.topbar.js"></script>
 <script src="js/foundation/foundation.dropdown.js"></script>
 <script>
