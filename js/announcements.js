@@ -16,6 +16,10 @@ function formatAnnouncements(num) {
             data = JSON.parse(data);
         }
 
+        data.sort(function(a, b) {
+          return new Date(b.date) - new Date(a.date);
+        })
+
         data.some(function (entry, index) {
             $.get('announcements/' + entry.html, function (content) {
                 entry.content = content;
