@@ -6,11 +6,9 @@
 
   <link rel="stylesheet" href="css/foundation.css"/>
   <link rel="stylesheet" href="css/hkn.css"/>
-  <link rel="stylesheet" href="lib/tablesorter/style.css">
 
   <script language="javascript" type="text/javascript" src="js/vendor/modernizr.js"></script>
   <script language="javascript" type="text/javascript" src="js/vendor/jquery.js"></script>
-  <script language="javascript" type="text/javascript" src="lib/tablesorter/jquery.tablesorter.min.js"></script>
 
   <title>HKN Psi Chapter | <?php echo $title; ?></title>
 

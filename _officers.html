@@ -21,8 +21,10 @@ foreach ($officers as $position=>$officer) {
         <div class="image" style="min-height: 130px;">
           <img src=images/officers/$officer[picture] alt=$position style="max-height:200px">
         </div>
+        <div class="wrapped">
         <br>$officer[name]<br><i>$officer[position]</i><br>
-        <a href="mailto:$officer[email]" >$officer[email]</a>
+        <a href="mailto:$officer[email]">$officer[email]</a>
+        </div>
       </center>
       </li>
 EOL;
