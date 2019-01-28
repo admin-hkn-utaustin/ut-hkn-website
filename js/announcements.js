@@ -20,16 +20,16 @@ function formatAnnouncements(num) {
           return new Date(b.date) - new Date(a.date);
         })
 
-        data.some(function (entry, index) {
-            $.get('announcements/' + entry.html, function (content) {
-                entry.content = content;
-                var text = Handlebars.templates.announcement(entry);
-                $('#announcements').append(text);
-            });
+        data.forEach(function (entry, index) {
+          if (num !== undefined && index >= num) {
+            return;
+          }
 
-            if (num !== undefined && index >= num - 1) {
-                return true;
-            }
+          $.get('announcements/' + entry.html, function (content) {
+              entry.content = content;
+              var text = Handlebars.templates.announcement(entry);
+              $('#announcements').append(text);
+          });
         });
     });
 }
