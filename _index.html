@@ -1,7 +1,55 @@
-<br>
+<style type="text/css">
+  .slider {
+    width: 95%;
+    margin: 40px auto;
+  }
+
+  .slick-slide {
+    margin: 0px 20px;
+  }
+
+  .slick-slide img {
+    width: 100%;
+  }
+
+  .slick-prev:before,
+  .slick-next:before {
+    color: black;
+  }
+
+  .slick-slide {
+    transition: all ease-in-out .3s;
+    opacity: .2;
+  }
+
+  .slick-active {
+    opacity: .5;
+  }
+
+  .slick-current {
+    opacity: 1;
+  }
+</style>
+
 <div class="row">
   <div class="large-center columns">
-    <div class="image"><img src="images/fall2018_banquet.jpg"></div>
+    <div class="single-item slider">
+      <div class="image slick-slide">
+        <img src="images/fall2018_banquet.jpg">
+      </div>
+      <div class="image slick-slide">
+        <img src="images/pledges_SP2016.jpg">
+      </div>
+      <div class="image slick-slide">
+        <img src="images/fall2018_pledges.jpg">
+      </div>
+      <div class="image slick-slide">
+        <img src="images/sp2016_pledges.jpg">
+      </div>
+      <div class="image slick-slide">
+        <img src="images/home.jpg">
+      </div>
+    </div>
   </div>
 </div>
 <br>
@@ -39,8 +87,18 @@
 <script language="javascript" type="text/javascript" src="js/vendor/handlebars.runtime.min.js"></script>
 <script language="javascript" type="text/javascript" src="templates/announcement.js"></script>
 <script language="javascript" type="text/javascript" src="js/announcements.js"></script>
+<script type="text/javascript" src="js/vendor/jquery.js"></script>
+<script type="text/javascript" src="js/slick/slick.min.js"></script>
+
 <script language="javascript" type="text/javascript">
   $(document).ready(function() {
     formatAnnouncements(2);
+    $('.single-item').slick({
+      dots: true,
+      infinite: true,
+      adaptiveHeight: true,
+      accessibility: true,
+      centerMode: true
+    });
   });
 </script>

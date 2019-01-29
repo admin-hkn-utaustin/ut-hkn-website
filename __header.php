@@ -6,6 +6,8 @@
 
   <link rel="stylesheet" href="css/foundation.css"/>
   <link rel="stylesheet" href="css/hkn.css"/>
+  <link rel="stylesheet" type="text/css" href="js/slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="js/slick/slick-theme.css">
 
   <script language="javascript" type="text/javascript" src="js/vendor/modernizr.js"></script>
   <script language="javascript" type="text/javascript" src="js/vendor/jquery.js"></script>
