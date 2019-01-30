@@ -1,4 +1,27 @@
-<div class="row">
+<style>
+/* https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
+#button {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: gray;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#button:hover {
+  background-color: #555;
+}
+</style>
+
+<div class="row" id="requirements">
   <div class="large-centered columns">
     <h2>Requirements for Pledging</h2>
     <div>The requirements fall under three categories: General Meetings, HKN Hours and Events, and Miscellaneous. The requirements for all four categories must be met to successfully pledge. Requirements vary based on current status as an undergraduate or
@@ -75,10 +98,10 @@
             <TH>Miscellaneous</TH>
           </TR>
           <TR>
-            <TD>Turn in a completed signature book at Smoker. Requirements are below.</TD>
+            <TD>Turn in a completed <a href="#sigbook">signature book</a> at Smoker. Requirements are below.</TD>
           </TR>
           <TR>
-            <TD>Take and pass the pledge quiz</TD>
+            <TD>Take and pass the <a href="#quiz">pledge quiz</a></TD>
           </TR>
           <TR>
             <TD>Attend Smoker</TD>
@@ -129,6 +152,12 @@
 
             <TR CLASS="darkrow">
               <TH>Miscellaneous</TH>
+            </TR>
+            <TR>
+              <TD>Turn in a completed <a href="#sigbook">signature book</a> at Smoker. Requirements are below.</TD>
+            </TR>
+            <TR>
+              <TD>Take and pass the <a href="#quiz">pledge quiz</a></TD>
             </TR>
             <TR>
               <TD>Attend Smoker</TD>
@@ -265,3 +294,24 @@
 
   </div>
 </div>
+
+<button onclick="topFunction()" id="button" title="Back to top">Top</button>
+<script>
+// When the user scrolls down 800px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+    document.getElementById("button").style.display = "block";
+  } else {
+    document.getElementById("button").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  // document.body.scrollTop = 0;
+  // document.documentElement.scrollTop = 0;
+  window.location="#requirements";
+}
+</script>
