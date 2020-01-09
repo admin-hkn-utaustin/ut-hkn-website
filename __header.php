@@ -69,11 +69,12 @@
             <a href="#">Useful Links</a>
             <ul class="dropdown">
               <li><a target="_blank"
-               href="https://docs.google.com/spreadsheets/d/1pzJATIXcARxkdzHeSZuYtDJGKayrTz2AMQ-Zuwyl8Ms/edit?usp=sharing">
+                href="https://docs.google.com/spreadsheets/d/1FYgQJNInTX5jBWyTLtbsUilC16HNekS_2g87th-nf9o/edit?usp=sharing">
 		Active Hours Table</a></li>
-              <li><a target="_blank" href="https://www.facebook.com/groups/1993336434305004/">
+              <li><a target="_blank" href="https://www.facebook.com/groups/404607416861176/">
 		Facebook Group</a></li>
-              <li><a target="_blank" href="https://docs.google.com/spreadsheets/d/1KPj2xKB8pXNBoIGvMG320hsF-jsu4-tc61NfxsmC__8/edit?usp=sharing">
+              <li><a target="_blank" 
+		href="https://docs.google.com/spreadsheets/d/1qHlpsKzbF7r-HismZ04iTaLsnyo0J6uYcM9qbz66ZzQ/edit?usp=sharing">
 		Pledge Hours Table</a></li>
               <li><a target="_blank" href="https://docs.google.com/spreadsheets/d/1FNMkeSz9E6Tdzxd8pghAIcL3Q6-OSGFj9VN3coQGUls/edit?usp=sharing">
 		Big/Little Group Points Tracker</a></li>

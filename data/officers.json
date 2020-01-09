@@ -1,62 +1,62 @@
 {
   "president": {
     "position": "President",
-    "name": "Cynthia Wu",
+    "name": "Jarrad Cisco",
     "email": "president@hkn.ece.utexas.edu",
-    "picture": "cynthia.jpg"
+    "picture": "jarrad.jpg"
   },
   "vice president": {
     "position": "Vice President",
-    "name": "Nav Saini",
+    "name": "Dylan McCoy",
     "email": "vicepresident@hkn.ece.utexas.edu",
-    "picture": "nav.jpg"
+    "picture": "dylan.jpg"
   },
   "treasurer": {
     "position": "Treasurer",
-    "name": "Colin Zhu",
+    "name": "Simon Hoque",
     "email": "treasurer@hkn.ece.utexas.edu",
-    "picture": "colin.jpg"
+    "picture": "simonh.jpg"
   },
   "recording": {
     "position": "Recording Secretary",
-    "name": "Sneha Pendharkar",
+    "name": "Farrah Madkour",
     "email": "recording@hkn.ece.utexas.edu",
-    "picture": "sneha.jpg"
+    "picture": "farrah.jpg"
   },
   "coporate": {
     "position": "Corresponding Secretary",
-    "name": "Ramya Raj",
+    "name": "Jonathan Walsh",
     "email": "corporate_relations@hkn.ece.utexas.edu",
-    "picture": "ramya.jpg"
+    "picture": "jonathan.jpg"
   },
   "service": {
     "position": "Service/Cockrell Relations Representative",
-    "name": "Jarrad Cisco",
+    "name": "Matthew Jones",
     "email": "sec_service@hkn.ece.utexas.edu",
-    "picture": "jarrad.jpg"
+    "picture": "matthew.jpg"
   },
   "social": {
     "position": "Social Coordinator",
-    "name": "Charlie Yeng",
+    "name": "Brian Cheung",
     "email": "social@hkn.ece.utexas.edu",
-    "picture": "charlie.jpg"
+    "picture": "brian.jpg"
   },
   "historian": {
     "position": "Historian",
-    "name": "Grace Jung",
+    "name": "Simon Xie",
     "email": "historian@hkn.ece.utexas.edu",
-    "picture": "grace.jpg"
+    "picture": "simonx.jpg"
   },
   "historian1": {
     "position": "Historian",
-    "name": "Meiling Tang",
+    "name": "Carrington Kirstein",
     "email": "historian@hkn.ece.utexas.edu",
-    "picture": "meiling.jpg"
+    "picture": "carrington.jpg"
   },
   "admin": {
     "position": "Office/Web Administrator",
-    "name": "Steven Zhu",
+    "name": "Meiling Tang",
     "email": "admin@hkn.ece.utexas.edu",
-    "picture": "steven.jpg"
+    "picture": "meiling.jpg"
   }
 }
