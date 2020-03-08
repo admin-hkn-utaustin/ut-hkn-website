@@ -69,15 +69,13 @@
             <a href="#">Useful Links</a>
             <ul class="dropdown">
               <li><a target="_blank"
-                href="https://docs.google.com/spreadsheets/d/1FYgQJNInTX5jBWyTLtbsUilC16HNekS_2g87th-nf9o/edit?usp=sharing">
+                href="https://docs.google.com/spreadsheets/d/1sM0jmhA5v-X5ugG4fQvNoEVE_IeAKaExZdVJ5a04DYM/edit?usp=sharing">
 		Active Hours Table</a></li>
-              <li><a target="_blank" href="https://www.facebook.com/groups/404607416861176/">
+              <li><a target="_blank" href="https://www.facebook.com/groups/HKNSpring2020">
 		Facebook Group</a></li>
               <li><a target="_blank" 
-		href="https://docs.google.com/spreadsheets/d/1qHlpsKzbF7r-HismZ04iTaLsnyo0J6uYcM9qbz66ZzQ/edit?usp=sharing">
+		href="https://docs.google.com/spreadsheets/d/1wJqaRDtmoH17K8R38ED8DUoKh8ICBdPio3uh7DSk0jI/edit?usp=sharing">
 		Pledge Hours Table</a></li>
-              <li><a target="_blank" href="https://docs.google.com/spreadsheets/d/1FNMkeSz9E6Tdzxd8pghAIcL3Q6-OSGFj9VN3coQGUls/edit?usp=sharing">
-		Big/Little Group Points Tracker</a></li>
                  <li class="divider"></li>
                  <li class="has-dropdown">
                   <a href="#">Website</a>
