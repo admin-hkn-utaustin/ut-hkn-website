@@ -1,15 +1,15 @@
 {
   "president": {
     "position": "President",
-    "name": "Matthew Jones",
+    "name": "Matthew Golla",
     "email": "president@hkn.ece.utexas.edu",
-    "picture": "matthew.jpg"
+    "picture": "matthew_g.jpg"
   },
   "vice president": {
     "position": "Vice President",
-    "name": "Simon Hoque",
+    "name": "Matthew Jones",
     "email": "vicepresident@hkn.ece.utexas.edu",
-    "picture": "simon_h.jpg"
+    "picture": "matthew.jpg"
   },
   "treasurer": {
     "position": "Treasurer",
@@ -19,15 +19,15 @@
   },
   "recording": {
     "position": "Recording Secretary",
-    "name": "Matthew Golla",
+    "name": "Lindia Tjuatja",
     "email": "recording@hkn.ece.utexas.edu",
-    "picture": "matthew_g.jpg"
+    "picture": "tilapia.jpg"
   },
-  "coporate": {
+  "corporate": {
     "position": "Corresponding Secretary",
-    "name": "Noah Rose",
+    "name": "Teddy Hsieh",
     "email": "corporate_relations@hkn.ece.utexas.edu",
-    "picture": "noah.jpg"
+    "picture": "teddy.jpg"
   },
   "service": {
     "position": "Service/Cockrell Relations Representative",
@@ -37,9 +37,9 @@
   },
   "social": {
     "position": "Social Coordinator",
-    "name": "Ryuichi Yanagi",
+    "name": "Noah Rose",
     "email": "social@hkn.ece.utexas.edu",
-    "picture": "ryu.jpg"
+    "picture": "noah.jpg"
   },
   "historian": {
     "position": "Historian",
