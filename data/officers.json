@@ -21,7 +21,7 @@
     "position": "Recording Secretary",
     "name": "Sai Koukuntla",
     "email": "recording@hkn.ece.utexas.edu",
-    "picture": "image-not-available.jpg"
+    "picture": "sai.jpg"
   },
   "corporate": {
     "position": "Corresponding Secretary",
@@ -33,13 +33,13 @@
     "position": "Service/Cockrell Relations Representative",
     "name": "Madilyn Sikorski",
     "email": "sec_service@hkn.ece.utexas.edu",
-    "picture": "image-not-available.jpg"
+    "picture": "madilyn.jpg"
   },
   "social": {
     "position": "Social Coordinator",
     "name": "Julian Fritz",
     "email": "social@hkn.ece.utexas.edu",
-    "picture": "image-not-available.jpg"
+    "picture": "julian.jpg"
   },
   "historian": {
     "position": "Historian",
@@ -57,6 +57,6 @@
     "position": "Office/Web Administrator",
     "name": "Jerry Liu",
     "email": "admin@hkn.ece.utexas.edu",
-    "picture": "image-not-available.jpg"
+    "picture": "jerry.jpg"
   }
 }
