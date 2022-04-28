@@ -7,25 +7,25 @@
   },
   "vice president": {
     "position": "Vice President",
-    "name": "Trace Hamada",
+    "name": "Uneeb Sajjad",
     "email": "vicepresident@hkn.ece.utexas.edu",
-    "picture": "trace.jpg"
+    "picture": "image-not-available.jpg"
   },
   "treasurer": {
     "position": "Treasurer",
-    "name": "Uneeb Sajjad",
+    "name": "Hamza Shaikh",
     "email": "treasurer@hkn.ece.utexas.edu",
     "picture": "image-not-available.jpg"
   },
   "recording": {
     "position": "Recording Secretary",
-    "name": "TBA",
+    "name": "Pranav Swaminathan",
     "email": "recording@hkn.ece.utexas.edu",
     "picture": "image-not-available.jpg"
   },
   "corporate": {
     "position": "Corresponding Secretary",
-    "name": "TBA",
+    "name": "Sonia Shrotriya",
     "email": "corporate_relations@hkn.ece.utexas.edu",
     "picture": "image-not-available.jpg"
   },
@@ -55,8 +55,8 @@
   },
   "admin": {
     "position": "Office/Web Administrator",
-    "name": "Sai Koukuntla",
+    "name": "Quockhang Truong",
     "email": "admin@hkn.ece.utexas.edu",
-    "picture": "sai.jpg"
+    "picture": "image-not-available.jpg"
   }
 }
