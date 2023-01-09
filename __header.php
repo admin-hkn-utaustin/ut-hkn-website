@@ -26,7 +26,7 @@
   <div class="row large-centered columns">
     <div style="text-align:center;">
       <a href="index.php">
-      <img width="970px" src="images/Spring 2023/HKNBanner_2023.png"/>
+      <img width="970px" src="images/HKNBanner_2023.png"/>
       </a>
     </div>
     <nav class="top-bar" data-topbar role="navigation">
