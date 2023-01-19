@@ -13,45 +13,44 @@
   },
   "treasurer": {
     "position": "Treasurer",
-    "name": "Hamza Shaikh",
+    "name": "Shreekrishna Rout",
     "email": "treasurer@hkn.ece.utexas.edu",
     "picture": "image-not-available.jpg"
   },
   "recording": {
     "position": "Recording Secretary",
-    "name": "Pranav Swaminathan",
+    "name": "Sing-Rong Chiu",
     "email": "recording@hkn.ece.utexas.edu",
-    "picture": "image-not-available.jpg"
+    "picture": "lucy.jpg"
   },
   "corporate": {
     "position": "Corresponding Secretary",
-    "name": "Sonia Shrotriya",
+    "name": "Edwin Hernandez",
     "email": "corporate_relations@hkn.ece.utexas.edu",
-    "picture": "image-not-available.jpg"
+    "picture": "edwin.jpg"
   },
   "service": {
     "position": "Service/Cockrell Relations Representative",
-    "name": "TBA",
+    "name": "Rahul Banerjee",
     "email": "sec_service@hkn.ece.utexas.edu",
-    "picture": "image-not-available.jpg"
+    "picture": "rahul.jpg"
   },
   "social": {
     "position": "Social Coordinator",
-    "name": "TBA",
+    "name": "BP Rimal",
     "email": "social@hkn.ece.utexas.edu",
-    "picture": "image-not-available.jpg"
+    "picture": "bp.jpg"
+  },
+    "admin": {
+    "position": "Office/Web Administrator",
+    "name": "Kara Olson",
+    "email": "admin@hkn.ece.utexas.edu",
+    "picture": "kara.jpg"
   },
   "historian": {
     "position": "Historian",
     "name": "TBA",
     "email": "historian@hkn.ece.utexas.edu",
     "picture": "image-not-available.jpg"
-  },
-
-  "admin": {
-    "position": "Office/Web Administrator",
-    "name": "Kara Olson",
-    "email": "admin@hkn.ece.utexas.edu",
-    "picture": "kara.jpg"
   }
 }
