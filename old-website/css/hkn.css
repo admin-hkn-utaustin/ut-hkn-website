@@ -1,0 +1,71 @@
+body {
+  background: #fcfcfc;
+}
+
+nav.top-bar {
+  margin-bottom: 6px;
+}
+
+footer {
+  padding-bottom: 16px;
+}
+
+table {
+  width: 100%;
+}
+
+nav .top-bar-section li:not(.active) :hover {
+  background: #181818 !important;
+}
+
+span.more {
+  font-size: 75%;
+}
+
+div.main a:hover {
+  color: #006B8E;
+  text-decoration: underline;
+}
+
+.muted {
+  color: #9f9f9f;
+  font-style: italic;
+}
+
+div.muted {
+  color: #9f9f9f;
+  font-style: italic;
+  font-size: 80%;
+}
+
+tr.past td {
+  color: #9f9f9f;
+  font-style: italic;
+}
+
+tbody>tr:hover, tbody>tr:nth-of-type(even):hover {
+  background-color: #f4f4f4;
+}
+
+/*https://css-tricks.com/snippets/css/prevent-long-urls-from-breaking-out-of-container/*/
+div.wrapped {
+  /* These are technically the same, but use both */
+  overflow-wrap: break-word;
+  /*word-wrap: break-word;*/
+  /*-ms-word-break: break-all;*/
+  /* This is the dangerous one in WebKit, as it breaks things wherever */
+  /*word-break: break-all;*/
+  /* Instead use this non-standard one: */
+  /*word-break: break-word;*/
+  /* Adds a hyphen where the word breaks, if supported (No Blink) */
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+li.allcenter{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}

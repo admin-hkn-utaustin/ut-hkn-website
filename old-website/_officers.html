@@ -1,0 +1,35 @@
+<div class="row">
+  <div class="large-centered columns">
+    <div class="row">
+      <div class="large-centered columns">
+        <h1>Psi Chapter Leadership</h1>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="officers">
+  <h2 id="officers-heading">Spring 2023 Officers</h2><br>
+  <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-3" style="list-style-type:none">
+    <?php
+$string = file_get_contents("data/officers.json");
+$officers = json_decode($string, true);
+foreach ($officers as $position=>$officer) {
+    echo <<<EOL
+      <li>
+      <center>
+        <div class="image" style="min-height: 130px;">
+          <img src=images/officers/$officer[picture] alt=$position style="max-height:200px">
+        </div>
+        <div class="wrapped">
+        <br>$officer[name]<br><i>$officer[position]</i><br>
+        <a href="mailto:$officer[email]">$officer[email]</a>
+        </div>
+      </center>
+      </li>
+EOL;
+}
+?>
+  </ul>
+</div>
+<!-- officers -->

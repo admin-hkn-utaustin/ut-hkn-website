@@ -1,0 +1,57 @@
+{
+    "president": {
+      "position": "President",
+      "name": "Sing-Rong (Lucy) Chiu",
+      "email": "president@utexashkn.org",
+      "picture": "fall23_officers/lucy.jpg"
+    },
+    "vice president": {
+      "position": "Vice President",
+      "name": "Shreekrishna Rout",
+      "email": "vicepresident@utexashkn.org",
+      "picture": "image-not-available.jpg"
+    },
+    "treasurer": {
+      "position": "Treasurer",
+      "name": "Bennett Ziegler",
+      "email": "treasurer@utexashkn.org",
+      "picture": "image-not-available.jpg"
+    },
+    "recording": {
+      "position": "Recording Secretary",
+      "name": "Abigail Van Keer",
+      "email": "recording@utexashkn.org",
+      "picture": "fall23_officers/abigail.jpg"
+    },
+    "corporate": {
+      "position": "Corresponding Secretary",
+      "name": "Zongchi Xie",
+      "email": "corporate_relations@utexashkn.org",
+      "picture": "image-not-available.jpg"
+    },
+    "service": {
+      "position": "Service/Cockrell Relations Representative",
+      "name": "Aryan Jain",
+      "email": "sec_service@utexashkn.org",
+      "picture": "image-not-available.jpg"
+    },
+    "social": {
+      "position": "Social Coordinator",
+      "name": "TBA",
+      "email": "social@utexashkn.org",
+      "picture": "image-not-available.jpg"
+    },
+      "admin": {
+      "position": "Office/Web Administrator",
+      "name": "Uneeb Sajjad",
+      "email": "admin@utexashkn.org",
+      "picture": "fall23_officers/uneeb.jpg"
+    },
+    "historian": {
+      "position": "Historian",
+      "name": "TBA",
+      "email": "historian@utexashkn.org",
+      "picture": "image-not-available.jpg"
+    }
+  }
+  

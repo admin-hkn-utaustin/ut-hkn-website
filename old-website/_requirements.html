@@ -1,0 +1,303 @@
+<style>
+/* https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
+#button {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: gray;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#button:hover {
+  background-color: #555;
+}
+</style>
+
+<div class="row" id="requirements">
+  <div class="large-centered columns">
+    <h2>Requirements for Pledging</h2>
+    <div>The requirements fall under three categories: General Meetings, HKN Hours and Events, and Miscellaneous. The requirements for all four categories must be met to successfully pledge. Requirements vary based on current status as an undergraduate or
+      graduate student.
+    </div>
+    <br>
+
+    <ul class="tabs" data-tab>
+      <li class="tab-title active"><a href="#undergrad">Undergraduate Requirements</a></li>
+      <li class="tab-title"><a href="#grad">Graduate Requirements</a></li>
+    </ul>
+    <div class="tabs-content">
+      <div class="content active" id="undergrad">
+        <header>
+          <h3 style="display:inline-block">Requirements for Undergraduates</h3>
+          <!-- <span><a href="resources/pledge_undergrad_checklist.pdf">pdf</a></span> -->
+        </header>
+        <table>
+          <TR CLASS="darkrow">
+            <TH>Attend <b>FOUR</b> general meetings </TH>
+          </TR>
+          <TR>
+            <TD> General meetings are held Tuesday nights.
+            </TD>
+          </TR>
+          <TR>
+            <TD> Dates are available on our
+              <a href="calendar.php">calendar</a>.
+            </TD>
+          </TR>
+          <TR>
+            <TD> If you cannot attend all of the meetings during the semester you are pledging due to any conflict (including class or work), please contact the recording secretary.
+            </TD>
+          </TR>
+
+          <TR CLASS="darkrow">
+            <TH>Complete the following events and talks:</TH>
+          </TR>
+
+          <TR>
+            <TD><b>Three</b> social (or service) events (pre-pledge social counts towards this)</TD>
+          </TR>
+          <TR>
+            <TD><b>One</b> society event (Tech Core Night, Peer Advising Night, Sig Party)</TD>
+          </TR>
+          <TR>
+            <TD><b>One</b> Firesides</TD>
+          </TR>
+          <!-- <TR>
+            <TD><b>Three</b> E-Week events (attend two other events and help HKN with one event)</TD>
+          </TR> -->
+
+
+          <TR CLASS="darkrow">
+            <TH>Miscellaneous</TH>
+          </TR>
+          <TR>
+            <TD>Turn in a completed <a href="#sigbook">signature book</a>. Requirements are below. <a href="https://forms.gle/9BD6JT3WJeKpYt1f8">Example form</a></TD>
+          </TR>
+          <TR>
+            <TD>Coffee chat</TD>
+          </TR>
+          <TR>
+            <TD>Attend the pledge interview</TD>
+          </TR>
+          <TR>
+            <TD>Attend Induction</TD>
+          </TR>
+          <TR>
+            <TD>Pay dues of $80.</TD>
+          </TR>
+        </table>
+      </div>
+
+      <div class="content" id="grad">
+        <table>
+          <TR CLASS="darkrow">
+            <h3>Requirements for Graduate Students </h3>
+            <TH>Attend <b>TWO<b> general meetings</TH>
+          </TR>
+          <TR>
+            <TD> General meetings are held Tuesday nights.
+            </TD>
+          </TR>
+          <TR>
+            <TD> Dates are available on our
+              <a href="calendar.php">calendar</a>.
+            </TD>
+          </TR>
+          <TR>
+            <TD> If you cannot attend all of the meetings during the semester you are pledging due to any conflict (including class or work), please contact the recording secretary.
+            </TD>
+          </TR>
+
+          <TR CLASS="darkrow">
+            <TH>Complete the following events</TH>
+          </TR>
+          <TR>
+            <TD><b>Two</b> social events</TD>
+          </TR>
+          <TR>
+            <TD><b>One</b> society event</TD>
+          </TR>
+          <TR>
+            <TD><b>One</b> other event (Service, Social, Fireside, Tech Talks)</TD>
+          </TR>
+          <!-- <TR>
+              <TD><b>Three</b> E-Week events (attend two other events and help HKN with one event)</TD>
+          </TR> -->
+
+            <TR CLASS="darkrow">
+              <TH>Miscellaneous</TH>
+            </TR>
+            <TR>
+              <TD>Turn in a completed <a href="#sigbook">signature book</a>. Requirements are below. <a href="https://forms.gle/9BD6JT3WJeKpYt1f8">Example form</a></TD>
+            </TR>
+            <TR>
+              <TD>Coffee chat</TD>
+            </TR>
+            <TR>
+              <TD>Attend the pledge interview</TD>
+            </TR>
+            <TR>
+              <TD>Attend Induction</TD>
+            </TR>
+            <TR>
+              <TD>Pay dues of $80.</TD>
+            </TR>
+        </table>
+      </div>
+    </div>
+
+    <h6>Some notes:</h6>
+    <ul>
+      <li class="detail">Excess hours go towards the Best Pledge Award.
+      </li>
+      <li class="detail">Hours from previous semesters do not carry over to subsequent semesters if you do not complete the pledge process.
+      </li>
+      <!-- <li>If you attend more than two society events, the excess hours will go toward your required social events.</li> -->
+      <li>If you do not attend initiation, you cannot be a member of Eta Kappa Nu. Plan ahead!</li>
+      <li>We collect one-time dues of $100 and send them to HKN National Headquarters.</li>
+      <li>Membership dues include a lifetime subscription to <em>The Bridge</em>.</li>
+      <li>If you have any concerns about dues, please feel free to contact an officer, and we can work something out.</li>
+    </ul>
+
+    <p>
+      Please note that some variations will occur from semester to semester, but the basic pledge requirements will always be the same.
+    </p>
+    <br>
+
+    <h3 id="sigbook">The Signature Book</h3>
+
+    <table>
+      <TR CLASS="darkrow">
+        <TH>Required signatures</TH>
+      </TR>
+    
+      <tr>
+        <td>interview <b>ALL</b> pledges</td>
+      </tr>
+      <tr>
+        <td>interview <b>TBD</b> actives</td>
+      </tr>
+      <tr>
+        <td>interview <b>ALL</b> HKN officers</td>
+      </tr>
+      <tr class="darkrow">
+        <th>Suggested Interview Questions</th>
+      </tr>
+      <tr>
+        <td>What's your favorite thing about HKN?</td>
+      </tr>
+      <tr>
+        <td>What's your tech core (if you've decided on one)?</td>
+      </tr>
+      <tr>
+        <td>What's your favorite ECE course?</td>
+      </tr>
+      <tr>
+        <td>Get creative! The goal of the sig book is to help you get to know your peers in HKN.</td>
+      </tr>
+    </TABLE>
+
+    <h6>Guidelines</h6>
+    <ul>
+      <li>The design of the signature book is up to you. It does not need to be in book form.</li>
+      <li>Your name should be prominently located on your signature book.</li>
+      <!-- <li>Be professional when asking for faculty or staff signatures (i.e. no scraps of paper). Introduce yourself!</li>
+      <li>DO NOT WAIT UNTIL THE LAST MOMENT TO BEGIN COLLECTING SIGNATURES.</li>
+      <li>A complete signature book (excluding the President's signature) is to be turned in at Smoker.</li>
+      <li>You can get the President's signature <b>only</b> at Smoker.</li> -->
+      <li>Be friendly when asking for an interview.</li>
+      <li>Try to keep all meetings online using Zoom, Messenger, or Facetime</li>
+      <li>At the end-of-semester banquet, an award will be given for the best sig book.</li>
+    </ul>
+
+    <br>
+
+    <div class="row">
+      <div class="large-centered columns">
+        <h4>Example Sig Books</h4>
+
+        <div class="row">
+          <div class="large-6 columns">
+            <div class="image" style="text-align:center;">
+              <img src="images/sigbooks/robin.jpg" alt="robin's sig book" style="max-height:350px" />
+                <div> Robin Franklin, Fall 2017</div>
+            </div>
+          </div>
+          <div class="large-6 columns">
+            <div class="image" style="text-align:center;">
+              <img src="images/sigbooks/cynthia.jpg" alt="cynthia's sig book" style="max-height:350px" />
+              <div> Cynthia Wu, Fall 2017</div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="large-center columns">
+            <div class="image" style="text-align:center;">
+              <img src="images/sigbooks/madeline.jpg" alt="madeline's sig book" style="max-height:450px" />
+              <div> Madeline Jasper, Spring 2017</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br>
+
+    <!-- <h3 id="quiz">Pledge Quiz</h3>
+
+    The pledge quiz is typically given during the 4th or 5th general meeting.
+
+    <p>Here's a list of things to do and study in preparation for the pledge quiz:</p>
+    <ul>
+      <li>Navigate and learn our local chapter's website</li>
+      <li>Navigate the <a href="http://hkn.org">National Headquarters'</a> website
+      </li>
+      <li>Learn some facts about HKN in general and our local chapter</li>
+      <li>Know your officers</li>
+      <li>Know your actives</li>
+      <li>Know your fellow pledges</li>
+      <li>Brush up on your lower-division course work</li>
+      <li>Take a walk around the office and pay attention to details and be observant
+      </li>
+    </ul>
+
+    <p>Don't sweat it if you don't pass. We might be inclined to give you another chance!
+    </p> -->
+
+    <!-- <h3 id="mailinglist">Pledges Mailing List</h3>
+
+    <p>Each semester we place all of our pledges on the <a href="https://utlists.utexas.edu/sympa/info/hkn_pledges">pledges mailing list
+      </a> in order to communicate with them during the pledge process. If you are a pledge but are not on the pledges list please contact an officer to get yourself added.</p> -->
+
+  </div>
+</div>
+
+<button onclick="topFunction()" id="button" title="Back to top">Top</button>
+<script>
+// When the user scrolls down 800px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+    document.getElementById("button").style.display = "block";
+  } else {
+    document.getElementById("button").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  // document.body.scrollTop = 0;
+  // document.documentElement.scrollTop = 0;
+  window.location="#requirements";
+}
+</script>
