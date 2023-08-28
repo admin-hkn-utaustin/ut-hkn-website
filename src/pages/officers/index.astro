@@ -1,0 +1,38 @@
+---
+import OfficerCard from "@/components/OfficerCard.astro";
+import Base from "@/layouts/Base.astro";
+import { getSinglePage } from "@/lib/contentParser.astro";
+import PageHeader from "@/partials/PageHeader.astro";
+import { getEntryBySlug } from "astro:content";
+
+interface OfficersPage {
+  title: string;
+  officers: {
+    name: string;
+    position: string;
+    email: string;
+    image: string;
+    bio: string;
+  }[];
+}
+
+const officers_page = await getEntryBySlug<any, string>("officers", "-index");
+const { title, officers }: OfficersPage = officers_page.data;
+---
+
+<Base title={title}>
+  <PageHeader title={title} />
+  <section class="section-sm pb-0">
+    <div class="container">
+      <div class="row justify-center">
+        {
+          officers.map((officer) => (
+            <div class="mb-14 md:col-6 lg:col-4">
+              <OfficerCard data={officer} />
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+</Base>

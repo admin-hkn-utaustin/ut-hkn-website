@@ -19,11 +19,14 @@ export interface Props {
   image?: string;
   noindex?: boolean;
   canonical?: string;
+  background_image: boolean;
 }
 
 // distructure frontmatters
-const { title, meta_title, description, image, noindex, canonical } =
+const { title, meta_title, description, image, noindex, canonical, background_image } =
   Astro.props;
+
+const { theme_switcher }: { theme_switcher: boolean } = config.settings;
 ---
 
 <!DOCTYPE html>
@@ -143,7 +146,17 @@ const { title, meta_title, description, image, noindex, canonical } =
     <TwSizeIndicator />
     <Header />
     <main id="main-content">
-      <slot />
+      {
+        background_image ? (
+            <div style="background-image: url('images/eer_outline.png'); background-size: 100%; background-repeat:no-repeat;">
+              <slot />
+            </div>  
+          ) : (
+            <div>
+              <slot />
+            </div>
+        )
+      }
     </main>
     <Footer />
   </body>

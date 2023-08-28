@@ -9,8 +9,40 @@
       "url": "/about"
     },
     {
-      "name": "Elements",
-      "url": "/elements"
+      "name": "Student Services",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "Peer Advising Night",
+          "url": "/peer-advising-night"
+        },
+        {
+          "name": "Resume Roasts",
+          "url": "/resume-roasts"
+        },
+        {
+          "name": "Tutoring",
+          "url": "/tutoring"
+        }
+      ]
+    },
+    {
+      "name": "Organization",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "Join",
+          "url": "/join"
+        },
+        {
+          "name": "Actives",
+          "url": "/actives"
+        },
+        {
+          "name": "Officers",
+          "url": "/officers"
+        }
+      ]
     },
     {
       "name": "Pages",
@@ -26,8 +58,8 @@
           "url": "/blog"
         },
         {
-          "name": "Authors",
-          "url": "/authors"
+          "name": "Officers",
+          "url": "/officers"
         },
         {
           "name": "Categories",
