@@ -13,7 +13,8 @@ interface Homepage {
     title: string;
     content: string;
     image: string;
-    button: Button;
+    member_button: Button;
+    sponsor_button: Button;
   };
   features: Feature[];
 }
@@ -26,21 +27,28 @@ const { banner, features }: Homepage = homepage.data;
 
 <Base>
   <!-- Banner -->
-  <section class="section pt-14">
+  <section class="section pt-14" style="background-image: url('/images/eer_filler.png'); background-size:cover;">
     <div class="container">
       <div class="row justify-center">
         <div class="mb-16 text-center lg:col-7">
           <h1 set:html={markdownify(banner.title)} class="mb-4" />
           <p set:html={markdownify(banner.content)} class="mb-8" />
           {
-            banner.button.enable && (
-              <a class="btn btn-primary" href={banner.button.link}>
-                {banner.button.label}
+            banner.member_button.enable && (
+              <a class="btn btn-primary" href={banner.member_button.link}>
+                {banner.member_button.label}
+              </a>
+            ) 
+          }
+          &nbsp;
+          { banner.sponsor_button.enable && (
+              <a class="btn btn-primary" href={banner.sponsor_button.link}>
+                {banner.sponsor_button.label}
               </a>
             )
           }
         </div>
-        {
+        <!-- {
           banner.image && (
             <div class="col-12">
               <Image
@@ -52,7 +60,7 @@ const { banner, features }: Homepage = homepage.data;
               />
             </div>
           )
-        }
+        } -->
       </div>
     </div>
   </section>

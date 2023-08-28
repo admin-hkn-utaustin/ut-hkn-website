@@ -1,12 +1,19 @@
 ---
 # Banner
 banner:
-  title: "The Ultimate Starter Template You Need To Start Your Astro Project"
-  content: "Astroplate is a free starter template built with Astro and TailwindCSS, providing everything you need to jumpstart your Astro project and save valuable time."
+  title: "Welcome to Eta Kappa Nu at The University of Texas at Austin"
+  content: "Eta Kappa Nu (HKN), Psi Chapter, is the Electrical and Computer Engineering Honor Society at The University of
+      Texas at Austin. We provide a venue for upper-division ECE honor students to meet each other, interact with the
+      corporate world, and serve the department, the university, and the community. Like all chapters of HKN, we are
+      dedicated to encouraging and recognizing excellence in the fields of Electrical and Computer Engineering."
   image: "/images/banner.png"
-  button:
+  member_button:
     enable: true
-    label: "Get Started For Free"
+    label: "How to Join"
+    link: "https://github.com/zeon-studio/astroplate"
+  sponsor_button:
+    enable: true
+    label: "Become a Sponsor"
     link: "https://github.com/zeon-studio/astroplate"
 
 # Features
