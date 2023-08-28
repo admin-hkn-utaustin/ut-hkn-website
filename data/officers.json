@@ -1,51 +1,51 @@
 {
   "president": {
     "position": "President",
-    "name": "Uneeb Sajjad",
+    "name": "Sing-Rong (Lucy) Chiu",
     "email": "president@utexashkn.org",
-    "picture": "uneeb.jpg"
+    "picture": "fall23_officers/lucy.jpg"
   },
   "vice president": {
     "position": "Vice President",
-    "name": "Hamza Shaikh",
+    "name": "Shreekrishna Rout",
     "email": "vicepresident@utexashkn.org",
     "picture": "image-not-available.jpg"
   },
   "treasurer": {
     "position": "Treasurer",
-    "name": "Shreekrishna Rout",
+    "name": "Bennett Ziegler",
     "email": "treasurer@utexashkn.org",
     "picture": "image-not-available.jpg"
   },
   "recording": {
     "position": "Recording Secretary",
-    "name": "Sing-Rong Chiu",
+    "name": "Abigail Van Keer",
     "email": "recording@utexashkn.org",
-    "picture": "lucy.jpg"
+    "picture": "fall23_officers/abigail.jpg"
   },
   "corporate": {
     "position": "Corresponding Secretary",
-    "name": "Edwin Hernandez",
+    "name": "Zongchi Xie",
     "email": "corporate_relations@utexashkn.org",
-    "picture": "edwin.jpg"
+    "picture": "image-not-available.jpg"
   },
   "service": {
     "position": "Service/Cockrell Relations Representative",
-    "name": "Rahul Banerjee",
+    "name": "Aryan Jain",
     "email": "sec_service@utexashkn.org",
-    "picture": "rahul.jpg"
+    "picture": "image-not-available.jpg"
   },
   "social": {
     "position": "Social Coordinator",
-    "name": "BP Rimal",
+    "name": "TBA",
     "email": "social@utexashkn.org",
-    "picture": "bp.jpg"
+    "picture": "image-not-available.jpg"
   },
     "admin": {
     "position": "Office/Web Administrator",
-    "name": "Kara Olson",
+    "name": "Uneeb Sajjad",
     "email": "admin@utexashkn.org",
-    "picture": "kara.jpg"
+    "picture": "fall23_officers/uneeb.jpg"
   },
   "historian": {
     "position": "Historian",
