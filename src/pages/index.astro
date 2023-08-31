@@ -2,7 +2,7 @@
 import Base from "@/layouts/Base.astro";
 import { markdownify } from "@/lib/utils/textConverter";
 import UpcomingEvents from "@/partials/UpcomingEvents.astro";
-import type { Button, Feature } from "@/types";
+import type { Button } from "@/types";
 import { getEntryBySlug } from "astro:content";
 
 interface Homepage {
@@ -12,7 +12,7 @@ interface Homepage {
     image: string;
     member_button: Button;
     sponsor_button: Button;
-  }
+  };
 }
 
 const homepage = await getEntryBySlug("homepage", "-index");
@@ -20,34 +20,30 @@ const { banner }: Homepage = homepage.data;
 ---
 
 <Base background_image={true}>
-  <!-- Banner -->
-  <!-- style="background-image: url('/images/eer_outline.png'); background-size:cover;" -->
   <section class="section pt-14">
     <div class="container">
       <div class="row justify-center">
         <div class="mb-16 text-center lg:col-7">
-          <h1 set:html={markdownify(banner.title)} class="mb-4" style="background-color:white; border-radius: 10px;" />
-          <p set:html={markdownify(banner.content)} class="mb-8" style="background-color:white; border-radius: 10px;" />
+          <h1 set:html={markdownify(banner.title)} class="mb-4" />
+          <p set:html={markdownify(banner.content)} class="mb-8" />
           {
             banner.member_button.enable && (
               <a class="btn btn-primary" href={banner.member_button.link}>
                 {banner.member_button.label}
               </a>
-            ) 
+            )
           }
-          &nbsp;
-          { banner.sponsor_button.enable && (
+           &nbsp;
+          {
+            banner.sponsor_button.enable && (
               <a class="btn btn-primary" href={banner.sponsor_button.link}>
                 {banner.sponsor_button.label}
               </a>
             )
           }
         </div>
+        <UpcomingEvents />
       </div>
     </div>
   </section>
-  <!-- /Banner -->
-
-  <!-- <UpcomingEvents /> -->
-
 </Base>

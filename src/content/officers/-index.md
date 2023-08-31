@@ -48,5 +48,4 @@ officers:
   #   name: "TBA"
   #   email: "historian@utexashkn.org"
   #   image: "/images/avatar.png"
-
 ---

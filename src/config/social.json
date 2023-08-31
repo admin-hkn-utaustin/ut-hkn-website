@@ -16,6 +16,11 @@
       "link": "https://github.com/admin-hkn-utaustin/ut-hkn-website"
     },
     {
+      "name": "instagram",
+      "icon": "FaInstagram",
+      "link": "https://www.instagram.com/hknutexas"
+    },
+    {
       "name": "linkedin",
       "icon": "FaLinkedin",
       "link": "https://www.linkedin.com/"

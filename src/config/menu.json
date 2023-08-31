@@ -15,14 +15,6 @@
         {
           "name": "Peer Advising Night",
           "url": "/peer-advising-night"
-        },
-        {
-          "name": "Resume Roasts",
-          "url": "/resume-roasts"
-        },
-        {
-          "name": "Tutoring",
-          "url": "/tutoring"
         }
       ]
     },
@@ -31,8 +23,12 @@
       "hasChildren": true,
       "children": [
         {
-          "name": "Join",
+          "name": "How to Join",
           "url": "/join"
+        },
+        {
+          "name": "Pledges",
+          "url": "/pledges"
         },
         {
           "name": "Actives",
@@ -41,49 +37,21 @@
         {
           "name": "Officers",
           "url": "/officers"
+        },
+        {
+          "name": "Calendar",
+          "url": "/calendar"
+        },
+        {
+          "name": "Gallery",
+          "url": "/gallery"
         }
       ]
     },
     {
-      "name": "Pages",
-      "url": "",
-      "hasChildren": true,
-      "children": [
-        {
-          "name": "Contact",
-          "url": "/contact"
-        },
-        {
-          "name": "Blog",
-          "url": "/blog"
-        },
-        {
-          "name": "Officers",
-          "url": "/officers"
-        },
-        {
-          "name": "Categories",
-          "url": "/categories"
-        },
-        {
-          "name": "Search",
-          "url": "/search"
-        },
-        {
-          "name": "404 Page",
-          "url": "/404"
-        }
-      ]
+      "name": "Corporate",
+      "url": "/corporate"
     }
   ],
-  "footer": [
-    {
-      "name": "Elements",
-      "url": "/elements"
-    },
-    {
-      "name": "Privacy Policy",
-      "url": "/privacy-policy"
-    }
-  ]
+  "footer": []
 }

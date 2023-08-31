@@ -8,7 +8,7 @@ import { slugify } from "@/lib/utils/textConverter";
 import { Image } from "@astrojs/image/components";
 
 export async function getStaticPaths() {
-  const authors = await getSinglePage("authors");
+  const authors = await getSinglePage("officers");
 
   const paths = authors.map((author) => ({
     params: {

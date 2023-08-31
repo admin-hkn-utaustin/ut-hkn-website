@@ -1,0 +1,165 @@
+---
+import Base from "@/layouts/Base.astro";
+import PageHeader from "@/partials/PageHeader.astro";
+import { getEntryBySlug } from "astro:content";
+
+const about = await getEntryBySlug("about", "-index");
+const { title, description, meta_title, image } = about.data;
+---
+
+<Base
+  title={title}
+  meta_title={meta_title}
+  description={description}
+  image={image}
+  background_image={false}
+>
+  <PageHeader title="Peer Advising Night" />
+  <section class="section-sm">
+    <div class="container">
+      <div class="row justify-center">
+        <div class="text-center md:col-10 lg:col-7">
+          <div class="content" id="content">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<script src="https://apis.google.com/js/api.js"></script>
+
+<script>
+  async function loadPeerAdvisingNight() {
+    gapi.client
+      .init({
+        apiKey: "AIzaSyDpSfdE112z9hmXWBUWqv8C1FA4rWPVHso",
+        // apiKey: "None",
+        discoveryDocs: [
+          "https://www.googleapis.com/discovery/v1/apis/calendar/v3/rest",
+        ],
+      })
+      .then(function () {
+        return gapi.client.calendar.events.list({
+          calendarId:
+            "hkn.ece.utexas.edu_39353038313833342d383839@resource.calendar.google.com",
+          timeMin: new Date().toISOString(),
+          q: "Peer Advising Night",
+          showDeleted: false,
+          singleEvents: true,
+          orderBy: "startTime",
+          maxResults: 1,
+        });
+      })
+      .then(function (response) {
+        var events = response.result.items;
+        console.log(events);
+        if (events.length == 1) {
+          const event = events[0];
+          const image_url = event.attachments
+            ? event.attachments[0].fileUrl.replace("open?", "uc?export=view&")
+            : // : "/images/placeholder.png";
+              "/images/generic-event.png";
+          const start = new Date(event.start.dateTime || event.start.date);
+          const end = new Date(event.end.dateTime || event.end.date);
+          const date_options: Intl.DateTimeFormatOptions = {
+            weekday: "short",
+            year: "numeric",
+            month: "short",
+            day: "numeric",
+            hour: "numeric",
+            minute: "numeric",
+          };
+          var dateString = "";
+          if (start.toDateString() === end.toDateString()) {
+            dateString =
+              start.toLocaleString([], date_options) +
+              " - " +
+              end.toLocaleTimeString([], {
+                hour: "numeric",
+                minute: "numeric",
+              });
+          } else {
+            dateString =
+              start.toLocaleString([], date_options) +
+              " - " +
+              "<br />" +
+              end.toLocaleString([], date_options);
+          }
+          const location = event.location
+            ? event.location
+            : "TBD";
+          const rsvp = event.description
+            ? event.description
+            : event.htmlLink;
+          const content = document.getElementById("content");
+          content!.innerHTML = `
+              <p>
+                Are you an Electrical or Computer Engineering (ECE) student
+                looking for guidance in course selection, scheduling, or advice on
+                professors? We've got you covered! Join us for <strong
+                  >Peer Advising Night</strong
+                >
+                 where experienced ECE students will be available to answer your
+                questions, share their insights, and help you make informed
+                decisions about your academic journey. Whether you're a freshman
+                trying to navigate the courses or an upperclassman seeking
+                specific recommendations, this event is designed to provide you
+                with valuable guidance. Don't miss this opportunity to get
+                personalized advice from your fellow ECE peers!
+              </p>
+              <p>
+                <strong>Date/Time:</strong> ${dateString}
+                <br /><strong>Location:</strong> ${location}
+              </p>
+              <a href="${rsvp}" class="btn btn-primary">RSVP</a
+              >
+              <Image src="${image_url}" alt="Event Image" height=100 />
+            `;
+        } else {
+          const content = document.getElementById("content");
+          content!.innerHTML = `
+                  <p>
+                    Are you an Electrical or Computer Engineering (ECE) student
+                    looking for guidance in course selection, scheduling, or advice on
+                    professors? We've got you covered! Join us for <strong
+                      >Peer Advising Night</strong
+                    >
+                     where experienced ECE students will be available to answer your
+                    questions, share their insights, and help you make informed
+                    decisions about your academic journey. Whether you're a freshman
+                    trying to navigate the courses or an upperclassman seeking
+                    specific recommendations, this event is designed to provide you
+                    with valuable guidance. Don't miss this opportunity to get
+                    personalized advice from your fellow ECE peers!
+                  </p>
+                `;
+        }
+      })
+      .catch(() => {
+        const content = document.getElementById("content");
+        content!.innerHTML = `
+                  <p>
+                    Are you an Electrical or Computer Engineering (ECE) student
+                    looking for guidance in course selection, scheduling, or advice on
+                    professors? We've got you covered! Join us for <strong
+                      >Peer Advising Night</strong
+                    >
+                     where experienced ECE students will be available to answer your
+                    questions, share their insights, and help you make informed
+                    decisions about your academic journey. Whether you're a freshman
+                    trying to navigate the courses or an upperclassman seeking
+                    specific recommendations, this event is designed to provide you
+                    with valuable guidance. Don't miss this opportunity to get
+                    personalized advice from your fellow ECE peers!
+                  </p>
+                `;
+      });
+  }
+
+  while (!window.gapi) {
+    await new Promise((resolve) => setTimeout(resolve, 10));
+  }
+
+  gapi.load("client", loadPeerAdvisingNight);
+</script>

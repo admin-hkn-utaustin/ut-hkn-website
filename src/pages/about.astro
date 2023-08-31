@@ -1,11 +1,12 @@
 ---
 import Base from "@/layouts/Base.astro";
 import { markdownify } from "@/lib/utils/textConverter";
+import PageHeader from "@/partials/PageHeader.astro";
 import { Image } from "@astrojs/image/components";
+import Video from "@/layouts/shortcodes/Video";
 import { getEntryBySlug } from "astro:content";
 
 const about = await getEntryBySlug("about", "-index");
-const { Content } = await about.render();
 const { title, description, meta_title, image } = about.data;
 ---
 
@@ -14,26 +15,75 @@ const { title, description, meta_title, image } = about.data;
   meta_title={meta_title}
   description={description}
   image={image}
+  background_image={true}
 >
+  <PageHeader title="About HKN" />
+  <section class="section-sm">
+    <div class="content">
+      <div class="container">
+        <div class="image" style="float:right; clear:right; padding-left:10px">
+          <img src="/images/20-EA-381n-IEEEHKNCrest-Vector.png" height="150" />
+        </div>
+        <div class="container">
+          <blockquote style="display:table;">
+            <p>
+              Founded in 1904 by Maurice L.Carr and nine fellow students at the
+              University of Illinois, Eta Kappa Nu (HKN) was originally
+              established to help electrical engineering graduates find
+              employment and gain footholds in their careers. Today, IEEE-HKN is
+              200,000 members strong and is the honor society for IEEE, the
+              world's largest technical professional organization for advancing
+              technology for humanity. IEEE-HKN is still dedicated to
+              encouraging and recognizing academic excellence, impeccable
+              character and the positive attitude needed to lead and serve
+              others. IEEE-HKN develops promising young professionals into
+              resilient, collaborative, global citizens and is with them through
+              every step of their professional journey. IEEE-HKN offers access
+              to countless experiences, opens doors to a lifetime of learning,
+              and encompasses a global network of visionary leaders with heart.
+            </p>
+            <footer>
+              <a href="https://hkn.ieee.org/about">-HKN National Chapter</a>
+            </footer>
+          </blockquote>
+          <div style="border-radius: 10px; overflow: hidden;">
+            <Video
+              width="100%"
+              src="https://ieeetv.ieee.org/ns/ieeetvdl/2019/HKN_Showcase_Video%20esker_FINAL.mp4"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- mission -->
   <section class="section-sm">
     <div class="container">
       <div class="row justify-center">
         <div class="text-center md:col-10 lg:col-7">
-          {
-            image && (
-              <Image
-                class="mx-auto mb-6 rounded-lg"
-                src={image}
-                width={200}
-                height={200}
-                alt={title}
-                format="webp"
-              />
-            )
-          }
-          <h2 set:html={markdownify(title)} class="h3 mb-6" />
+          <h2 class="h2 mb-6">Psi Chapter</h2>
+          <Image
+            class="mx-auto mb-6 rounded-lg"
+            src="/images/psi.png"
+            width={200}
+            height={200}
+            alt="Psi Chapter Emblem"
+            format="webp"
+          />
           <div class="content">
-            <Content />
+            <p>
+              Eta Kappa Nu (IEEE-HKN), Psi Chapter, is the Electrical and
+              Computer Engineering Honor Society at the University of Texas at
+              Austin. We provide a venue for upper-division ECE honor students
+              to meet each other, interact with the corporate world, and serve
+              the department, the university, and the community. Like all
+              chapters of HKN, we are dedicated to encouraging and recognizing
+              excellence in the fields of Electrical and Computer Engineering.
+              In addition to community-building social events and external
+              service events, we host Peer Advising Night, where HKN members
+              advise underclassmen. We are always looking for more ways to serve
+              the ECE community.
+            </p>
           </div>
         </div>
       </div>

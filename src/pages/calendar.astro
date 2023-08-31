@@ -1,0 +1,24 @@
+---
+import Base from "@/layouts/Base.astro";
+import PageHeader from "@/partials/PageHeader.astro";
+import { getEntryBySlug } from "astro:content";
+
+const calendar = await getEntryBySlug("calendar", "-index");
+const { title, description, meta_title, image } = calendar.data;
+---
+<Base
+  title={title}
+  meta_title={meta_title}
+  description={description}
+  image={image}
+>
+  <section class="section-sm">
+    <div class="content">
+      <div class="panel">
+        <iframe
+            src="https://www.google.com/calendar/embed?height=800&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=hkn.ece.utexas.edu_39353038313833342d383839%40resource.calendar.google.com&amp;color=%236B3304&amp;ctz=America%2FChicago"
+            style=" border:solid 1px #777 " width=100% height=800 frameborder="0" scrolling="no"></iframe>
+      </div>
+    </div>
+  </section>
+</Base>

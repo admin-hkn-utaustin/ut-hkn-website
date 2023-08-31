@@ -15,7 +15,7 @@
   "settings": {
     "search": true,
     "sticky_header": true,
-    "theme_switcher": false,
+    "theme_switcher": true,
     "default_theme": "system",
     "pagination": 2,
     "summary_length": 200,
@@ -24,7 +24,7 @@
 
   "params": {
     "contact_form_action": "#",
-    "copyright": "Designed And Developed by [Zeon Studio](https://zeon.studio)"
+    "copyright": "Built with [Astro](https://astro.build) with help from [Zeon Studio](https://zeon.studio)"
   },
 
   "navigation_button": {

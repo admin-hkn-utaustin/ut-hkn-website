@@ -148,13 +148,13 @@ const { theme_switcher }: { theme_switcher: boolean } = config.settings;
     <main id="main-content">
       {
         background_image ? (
-            <div style="background-image: url('images/eer_outline.png'); background-size: 100%; background-repeat:no-repeat;">
-              <slot />
-            </div>  
-          ) : (
-            <div>
-              <slot />
-            </div>
+          <div style="background-image: url('images/eer_outline_transparent_.png'); background-size: 100%; background-repeat:no-repeat; background-position: center bottom;">
+            <slot />
+          </div>  
+        ) : (
+          <div>
+            <slot />
+          </div>
         )
       }
     </main>
