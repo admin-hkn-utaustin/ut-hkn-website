@@ -89,7 +89,6 @@ import { Image } from "@astrojs/image/components";
             }
             const image_url = event.attachments
               ? event.attachments[0].fileUrl.replace("open?", "uc?export=view&")
-              // : "/images/placeholder.png";
               : "/images/generic-event.png";
             const start = new Date(event.start.dateTime || event.start.date);
             const end = new Date(event.end.dateTime || event.end.date);
@@ -113,9 +112,11 @@ import { Image } from "@astrojs/image/components";
             } else {
               dateString =
                 start.toLocaleString([], date_options) +
-                " - " + "<br />" +
+                " - " +
+                "<br />" +
                 end.toLocaleString([], date_options);
             }
+            const location = event.location ? event.location : "Location TBD";
             // Add event to swiper-wrapper div
             const swiperWrapper = document.querySelector(".swiper-wrapper");
             const swiperSlide = document.createElement("div");
@@ -135,9 +136,12 @@ import { Image } from "@astrojs/image/components";
                   <h3 class="h5 font-primary font-semibold">
                     ${event.summary}
                   <h3/>
-                  <p class="h5 font-secondary">
+                  <p class="h6 font-secondary">
                     ${dateString}
-                  <p/>
+                  </p>
+                  <p class="h6 font-secondary">
+                    ${location}
+                  </p>
                 </div>
               </div>
             </div>
@@ -145,10 +149,10 @@ import { Image } from "@astrojs/image/components";
             swiperWrapper!.appendChild(swiperSlide);
           }
         } else {
-            const swiperWrapper = document.querySelector(".swiper-wrapper");
-            const swiperSlide = document.createElement("div");
-            swiperSlide.classList.add("swiper-slide");
-            swiperSlide.innerHTML = `
+          const swiperWrapper = document.querySelector(".swiper-wrapper");
+          const swiperSlide = document.createElement("div");
+          swiperSlide.classList.add("swiper-slide");
+          swiperSlide.innerHTML = `
               <div class="rounded-lg bg-theme-light px-7 py-10 dark:bg-darkmode-theme-light">
                 <div class="text-dark dark:text-white items-center" style="position:relative;">
                   <img
@@ -169,11 +173,12 @@ import { Image } from "@astrojs/image/components";
           `;
           swiperWrapper!.appendChild(swiperSlide);
         }
-      }).catch(() => {
+      })
+      .catch(() => {
         const swiperWrapper = document.querySelector(".swiper-wrapper");
-            const swiperSlide = document.createElement("div");
-            swiperSlide.classList.add("swiper-slide");
-            swiperSlide.innerHTML = `
+        const swiperSlide = document.createElement("div");
+        swiperSlide.classList.add("swiper-slide");
+        swiperSlide.innerHTML = `
               <div class="rounded-lg bg-theme-light px-7 py-10 dark:bg-darkmode-theme-light">
                 <div class="text-dark dark:text-white items-center" style="position:relative;">
                   <img
@@ -192,8 +197,8 @@ import { Image } from "@astrojs/image/components";
                 </div>
               </div>
           `;
-          swiperWrapper!.appendChild(swiperSlide);
-      })
+        swiperWrapper!.appendChild(swiperSlide);
+      });
   }
 
   while (!window.gapi) {
