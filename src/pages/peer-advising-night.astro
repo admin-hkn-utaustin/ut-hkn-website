@@ -56,10 +56,11 @@ const { title, description, meta_title, image } = about.data;
         console.log(events);
         if (events.length == 1) {
           const event = events[0];
-          const image_url = event.attachments
-            ? event.attachments[0].fileUrl.replace("open?", "uc?export=view&")
-            : // : "/images/placeholder.png";
-              "/images/generic-event.png";
+          var image_url = "/images/generic-event.png";
+          if (event.attachments) {
+            const old_image_url = new URL(event.attachments[0].fileUrl);
+            image_url = "https://lh3.google.com/u/0/d/" + old_image_url.searchParams.get("id");
+          }
           const start = new Date(event.start.dateTime || event.start.date);
           const end = new Date(event.end.dateTime || event.end.date);
           const date_options: Intl.DateTimeFormatOptions = {
